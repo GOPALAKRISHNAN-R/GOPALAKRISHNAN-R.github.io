@@ -175,10 +175,11 @@
 }
 
 /* scroll indicator */
-.progress-bar {
+.scroll-progress-bar {
     margin-bottom: 70px;
     width: 0%;
     height: 4px;
+    background-color:#44d9e6 ;
     position: fixed;
     left: 0px;
 }
