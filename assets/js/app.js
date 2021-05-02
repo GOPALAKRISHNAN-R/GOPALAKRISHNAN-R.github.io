@@ -7,3 +7,6 @@ function myFunction() {
     var scrolled = (winScroll / height) * 100;
     document.getElementById("scrollIndicator").style.width = scrolled + "%";
 }
+
+// initialize AOS
+AOS.init();
