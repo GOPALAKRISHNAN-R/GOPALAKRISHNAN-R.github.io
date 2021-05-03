@@ -24,7 +24,7 @@ $(document).ready(function() {
         function(data) {
             var featured = '';
             $.each(data, function(key, value) {
-                featured += '<div class="col-lg-3 col-sm-3 mb-3">'
+                featured += '<div class="col-lg-4 col-sm-4 mb-3">'
                 featured += '<img class="img-fluid" src="' + value.logo + '" alt="" />'
                 featured += '</div>'
             });
