@@ -1,0 +1,18 @@
+[
+{
+    "id": "1",
+    "product_name": "UV DOSTH - MICRO STERILIZER",
+    "img": "/assets/images/products/uv-micro.jpeg",
+    "rate": "₹2799",
+    "model_no":"AFUVD-001",
+    "capacity":"35 Litres",
+    "lamps":"1 lamp",
+    "dimensions":"37 x 37 x25 (in cm)",
+    "operating_power":"15 W",
+    "input_voltage":"240 VAC - 50 Hz",
+    "power_cable":"3 Pin 5A, 1.2 meter",
+    "output":"254nm UVC light",
+    "btnlink":"#"
+
+}
+]

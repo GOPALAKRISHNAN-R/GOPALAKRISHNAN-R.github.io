@@ -1,0 +1,25 @@
+[
+{
+    "id": "1",
+    "product_name": "UV DOSTH - MICRO STERILIZER",
+    "img": "/assets/images/products/uv-micro.jpeg",
+    "rate": "₹2799",
+    "btnlink":"uv-dosth-micro"
+
+},
+{
+    "id": "2",
+    "product_name": "UV DOSTH - PRO+ STERILIZER",
+    "img": "/assets/images/products/uv-pro.jpg",
+    "rate": "₹9999",
+    "btnlink":"uv-dosth-pro"
+
+},
+{
+    "id": "3",
+    "product_name": "UV DOSTH - NEO STERILIZER",
+    "img": "uv-dosth-neo",
+    "rate": "₹2799",
+    "btnlink":"uv-dosth-neo"
+
+}]
