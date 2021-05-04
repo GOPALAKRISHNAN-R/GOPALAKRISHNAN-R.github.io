@@ -15,11 +15,21 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
     <!-- AOS CSS -->
     <link rel="stylesheet" href="/assets/css/lib/aos.css">
+    <!-- datatable js/css -->
+    <!-- <script src="/assets/js/lib/jquery-v3-5-1.js"></script> -->
+    <script src="/assets/js/lib/jquery-v3-5-1.js"></script>
+    <script src="/assets/js/lib/bootstrap-v4-6-0-min.js"></script>
+    <script src="/assets/js/lib/dataTable-min.js"></script>
+    <script src="/assets/js/lib/dataTables-bootstrap-min.js"></script>
+    <link href="/assets/css/lib/dataTables-bootstrap-min.css" rel="stylesheet" />
+    <link href="/assets/css/lib/responsive-bootstrap-min.css" rel="stylesheet" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="/assets/css/styles.css" rel="stylesheet" />
     <!-- App CSS -->
     <link rel="stylesheet" href="/assets/css/app.css">
     <script src="/assets/js/analytics.js"></script>
+    <script>
+    </script>
 </head>
 
 <body id="page-top">
@@ -76,54 +86,19 @@
     <section class="page-section bg-light" id="team">
         <div class="container">
             <div class="text-center">
-                <h2 class="section-heading text-uppercase">Our Amazing Team</h2>
+                <h2 class="section-heading text-uppercase">Our Intern</h2>
                 <hr class="divider my-4">
             </div>
-            <div class="row">
-                <div class="col-lg-4">
-                    <div class="team-member">
-                        <img class="mx-auto rounded-circle" src="/assets/img/team/naveen.png" alt="..." />
-                        <a target="_blank" href="naveen-krishnamurthy"><h4>Naveen Krishnamurthy</h4></a>
-                        <p class="text-muted">CTO</p>
-                        <a class="btn btn-dark btn-social mx-2" href="https://twitter.com/naveenieus"><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="https://m.facebook.com/naveenkrishnamurthy"><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="https://www.linkedin.com/in/naveenieus/"><i class="fab fa-linkedin-in"></i></a>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="team-member">
-                        <img class="mx-auto rounded-circle" src="/assets/img/team/vidya.png" alt="..." />
-                        <a target="_blank" href="vidya-ravichandran"><h4>Vidya Ravichandran
-                        </h4></a>
-                        <p class="text-muted">CEO</p>
-                        <a class="btn btn-dark btn-social mx-2" href="https://twitter.com/VidyaRNaveen"><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="https://m.facebook.com/vidya.iyer.1671"><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="https://www.linkedin.com/in/vidyaravichandran/"><i class="fab fa-linkedin-in"></i></a>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="team-member">
-                        <img class="mx-auto rounded-circle" src="/assets/img/team/giri.png" alt="..." />
-                        <a target="_blank" href="giriprabhu-seshadri"><h4>Giriprabhu Seshadri
-                        </h4></a>
-                        <p class="text-muted">Head Engineer</p>
-                        <a class="btn btn-dark btn-social mx-2" href="https://twitter.com/3897giri?s=08"><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="https://m.facebook.com/giri.prabhu.39"><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="https://www.linkedin.com/in/giriprabhu/"><i class="fab fa-linkedin-in"></i></a>
-                    </div>
-                </div>
-              </div>
-              <div class="row justify-content-center">
-                <div class="col-lg-4">
-                    <div class="team-member">
-                        <img class="mx-auto rounded-circle" src="/assets/img/team/gopalakrishnan.png" alt="..." />
-                        <h4>R.Gopalakrishnan
-                        </h4>
-                        <p class="text-muted">Software Engineer</p>
-                        <a class="btn btn-dark btn-social mx-2" href="https://www.linkedin.com/in/r-gopalakrishnan-33bb64170/"><i class="fab fa-linkedin-in"></i></a>
-                    </div>
-                </div>
-            </div>
+            <table id="example" class="table table-striped table-bordered" cellspacing="0" width="100%">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Department</th>
+                        <th>Linkedin</th>
+                        <th>Intern Category</th>
+                    </tr>
+                </thead>
+            </table>
         </div>
     </section>
     <!-- Contact-->
@@ -180,16 +155,19 @@
         </div>
     </footer>
     <!-- Bootstrap core JS-->
-    <script src="/assets/js/lib/jquery-v3-5-1.js"></script>
-    <script src="/assets/js/lib/bootstrap-v4-6-0-min.js"></script>
+    <!-- <script src="/assets/js/lib/jquery-v3-5-1.js"></script>
+    <script src="/assets/js/lib/bootstrap-v4-6-0-min.js"></script> -->
     <!-- Third party plugin JS-->
-    <script src="/assets/js/lib/anime-min.js"></script>
+    <!-- <script src="/assets/js/lib/anime-min.js"></script> -->
     <script src="/assets/js/lib/aos.js"></script>
     <!-- Contact form JS-->
     <script src="/assets/mail/jqBootstrapValidation.js"></script>
     <script src="/assets/mail/contact_me.js"></script>
     <!-- Core theme JS-->
     <script src="/assets/js/scripts.js"></script>
+    <!-- App Js -->
+    <script src="/assets/js/app.js"></script>
+    <script src="/assets/js/intern.js"></script>
 </body>
 
 </html>

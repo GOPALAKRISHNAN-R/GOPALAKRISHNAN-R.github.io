@@ -6,93 +6,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <title>AspireFactory</title>
-    <!-- Favicon-->
-    <link rel="icon" type="image/x-icon" href="/assets/images/favicon.png" />
+    <title>Unlearn with Side-Headings and Quick-Tips</title>
+    <link rel="icon" type="image/x-icon" href="/assets/img/logos/ladder_bulb_logo.png" />
     <!-- Font Awesome icons (free version)-->
-    <script src="/assets/js/lib/fontawesome.js"></script>
+    <script src="/assets/js/lib/fontawesome-all.js"></script>
     <!-- Google fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
-    <!-- Third party plugin CSS-->
-    <link href="/assets/css/lib/magnific-popup-min.css" rel="stylesheet" />
-    <link href="/assets/css/lib/aos.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+    <!-- AOS CSS -->
+    <link rel="stylesheet" href="/assets/css/lib/aos.css">
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="/assets/css/styles.css" rel="stylesheet" />
-    <!-- CSS (App CSS) -->
-    <link href="/assets/css/app.css" rel="stylesheet" />
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-174011620-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-
-    gtag('config', 'UA-174011620-1');
-  </script>
+    <!-- App CSS -->
+    <link rel="stylesheet" href="/assets/css/app.css">
+    <script src="/assets/js/analytics.js"></script>
 </head>
 
 <body id="page-top">
-    <!-- Navigation start-->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
         <div class="container">
-            <a class="navbar-brand js-scroll-trigger" href="/home">
-                <img class="img-fluid" src="/assets/images/aspirefactory_logo.png" />
-            </a>
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <a class="navbar-brand js-scroll-trigger" href="/home"><img src="/assets/img/logos/notesminute.png" alt="..." /></a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars ml-1"></i>
+            </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto my-2 my-lg-0">
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger text-black-50" href="/home">HOME</a></li>
+                <ul class="navbar-nav text-uppercase ml-auto">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/home">Home</a></li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link  dropdown-toggle text-black-50" href="#" data-bs-toggle="dropdown"> ABOUT</a>
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"> About </a>
                         <ul class="dropdown-menu">
-                            <li>
-                                <a class="dropdown-item" href="/about/story"> STORY
-                                </a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="/about/team"> TEAM
-                                </a>
-                            </li>
+                            <li><a class="dropdown-item" href="/about/story">Story</a></li>
+                            <li><a class="dropdown-item" href="/about/team">Team </a></li>
+                            <li><a class="dropdown-item" href="/about/intern-scholars">Interns </a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link  dropdown-toggle text-black-50" href="#" data-bs-toggle="dropdown"> OFFERING</a>
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"> Departments </a>
                         <ul class="dropdown-menu">
-                            <li>
-                                <a class="dropdown-item" href="/offering/fab-course"> FAB COURSE
-                                </a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="/offering/products"> PRODUCTS
-                                </a>
-                            </li>
+                            <li><a class="dropdown-item" href="/department/engineering">Engineering</a></li>
+                            <li><a class="dropdown-item" href="/department/arts-science">Arts & Science</a></li>
+                            <li><a class="dropdown-item" href="/department/law">Law</a></li>
                         </ul>
                     </li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger text-black-50" href="/media">MEDIA</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger text-black-50" href="#contact">CONTACT</a></li>
+                    <!-- <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"> Levels </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="/levels/bronze">Bronze</a></li>
+                            <li><a class="dropdown-item" href="/levels/silver">Silver</a></li>
+                            <li><a class="dropdown-item" href="/levels/gold">Gold</a></li>
+                        </ul>
+                    </li> -->
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
                 </ul>
-            </div>
-            <!-- Scroll Indicator Progress Bar -->
-            <div class="scroll-progress-bar" id="scrollIndicator">
             </div>
         </div>
     </nav>
-    <!-- Navigation End -->
-    <!-- Masthead start-->
-    <header class="masthead" style="
-position: relative;
-    /*margin-top:4rem;*/
-    padding-top: 10rem;
-            padding-bottom: calc(30rem - 4.5rem);
-            background-image: url('/assets/images/team/naveen.png');
-            background-position: top;
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            background-size: cover;
-">
-        <div class="container h-100">
-            <div class="text-block">
+    <!-- Masthead-->
+    <header class="masthead" style="padding-top: 25.5rem;
+    padding-bottom: 12rem;
+  text-align: center;
+  color: #fff;
+  background-image: url(/assets/img/team/naveen.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top;
+  background-size: cover;">
+        <div class="container">
+            <div class="text-left">
                 <h3>NAVEEN KRISHNAMURTHY
                 </h3>
                 <p>CTO
@@ -100,21 +81,23 @@ position: relative;
             </div>
         </div>
     </header>
-    <!-- Masthead End -->
-    <!-- about start -->
-    <section class="page-section bg-light" id="about">
+    <!-- Team-->
+    <section class="page-section bg-light" id="team">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-8 col-sm-8">
                     <p>
                         I am a Technologist and currently I manage my three startups LadderMinds (Consulting and Product Building), Acodeidea (Evolving Digital Transformation) and WeThe5Pilots (AeroScience Engineering and Education on UAV and Satellites).
-                    </p><br>
+                    </p>
+                    <br>
                     <p>
                         During my previous employment tenure at Aditya Birla Minacs where I architected some of the biggest RAV systems in the world for a motoring company.
-                    </p><br>
+                    </p>
+                    <br>
                     <p>
                         Mentoring Startups at community events like Ephipany an initiative of E-Cell NIT Trichy powered by Headstart Network Foundation, Startup Weekend Coimbatore by Google for Entrepreneurs and Regional Startup Activation Program 2017 by Forge Accelerator has been in my consistent must-do list.
-                    </p><br>
+                    </p>
+                    <br>
                     <p>
                         I do consulting on setting the Technology Road Map, new hire processes, and company culture. If you’d like to learn more about how my services can help your company, please reach out via email.
                     </p>
@@ -138,83 +121,70 @@ position: relative;
             </div>
         </div>
     </section>
-    <!-- about end -->
-    <!-- Contact start-->
+    <!-- Contact-->
     <section class="page-section" id="contact">
         <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-12 text-center">
-                    <a href="https://www.google.com/maps/place/LadderMinds/@11.0466493,76.9500714,15z/data=!4m5!3m4!1s0x0:0x8ecce9045a772d47!8m2!3d11.0466483!4d76.9501051" target="_blank"><img src="\assets\images\map.jpg" class="img-thumbnail mb-5" alt=".."></a>
-                </div>
-            </div>
-            <div class="row justify-content-center">
+            <div class="row">
                 <div class="col-lg-3 col-sm-3">
-                    <h5 class="text-left mt-0">Quick Links</h5>
-                    <hr class="divider ml-0 my-4" />
-                    <p class="text-left"><a href="/home">HOME</a></p>
-                    <p class="text-left"><a href="/about/story">ABOUT US</a></p>
-                    <p class="text-left"><a href="/offering/products">PRODUCTS</a></p>
-                    <p class="text-left"><a href="/offering/fab-course" target="_blank">FAB COURSE</a></p>
-                    <p class="text-left mb-5"><a href="#contact">CONTACT</a></p>
+                    <h5 class="text-left mt-0 text-white">Quick Links</h5>
+                    <hr class="divider ml-0 my-4">
+                    <p class="text-left"><a href="/home">Home</a></p>
+                    <p class="text-left"><a href="/about/story">About Us</a></p>
+                    <p class="text-left"><a href="/department/engineering">Engineering</a></p>
+                    <p class="text-left"><a href="/department/arts-science">Arts & Science</a></p>
+                    <p class="text-left"><a href="/department/law">Law</a></p>
+                    <p class="text-left mb-5"><a href="#contact">Contact</a></p>
                 </div>
                 <div class="col-lg-3 col-sm-3">
-                    <h5 class="text-left mt-0">Contact Us</h5>
-                    <hr class="divider ml-0 my-4" />
-                    <p class="text-left mb-2"> 18/57 A/1, Jai Nagar,</p>
-                    <p class="text-left mb-2"> Kavundampalayam, </p>
-                    <p class="text-left mb-2"> Coimbatore - 641 030,</p>
-                    <p class="text-left mb-4"> Tamil Nadu</p>
-                    <p class="text-left mb-2">+91 422 43 80 500</p>
-                    <p class="text-left mb-2">+91 90037 12349</p>
-                    <p class="text-left mb-4"><a href="mailto:aspirefactoryofficial@gmail.com">aspirefactoryofficial@gmail.com</a></p>
-                </div>
-                <div class="col-lg-6 col-sm-6">
-                    <h5 class="text-left mt-0">AspireFactory</h5>
-                    <hr class="divider ml-0 my-4" />
-                    <p class="text-left mb-2">A sustainable solution company with technology to make lives better. We create a sustainable ecosystem by enabling local communities to solve problems with tech solutions</p>
-                    </p>
+                    <h5 class="text-left mt-0 text-white">Contact Us</h5>
+                    <hr class="divider ml-0 my-4">
+                    <p class="text-left mb-2 text-white"> 18/57 A/1, Jai Nagar,</p>
+                    <p class="text-left mb-2 text-white"> Kavundampalayam, </p>
+                    <p class="text-left mb-2 text-white"> Coimbatore - 641 030,</p>
+                    <p class="text-left mb-4 text-white"> Tamil Nadu</p>
+                    <p class="text-left mb-2 text-white">+91 422 43 80 500</p>
+                    <p class="text-left mb-2 text-white">+91 94456 80500</p>
+                    <p class="text-left mb-4"><a href="mailto:info@notesminute.com">info@notesminute.com</a></p>
                 </div>
             </div>
         </div>
     </section>
-    <!-- Contact End -->
-    <!-- Footer start-->
-    <footer class="bg-light py-5">
+    <!-- Footer-->
+    <footer class="footer py-4">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-sm-6 small text-left text-muted">
-                    Copyright © 2021 AspireFactory. All Rights Reserved
-                    <p>
-                        <a href="/privacy-policy" target="_blank">Privacy Policy</a>.
-                        <a href="/terms-condition" target="_blank">Terms and Conditions</a>
-                    </p>
+            <div class="row align-items-center">
+                <div class="col-lg-4 text-lg-left">
+                    Copyright &copy;Notesminute
+                    <!-- This script automatically adds the current year to your website footer-->
+                    <!-- (credit: https://updateyourfooter.com/)-->
+                    <script>
+                    document.write(new Date().getFullYear());
+                    </script>
                 </div>
-                <div class="col-lg-6 col-sm-6 text-right">
-                    Connect with us <a href="https://www.facebook.com/aspirefactoryofficial" target="_blank"><i class="fab fa-facebook-f  zoom"></i></a>
-                    <a href="https://twitter.com/aspirefactory" target="_blank"><i class="fab fa-twitter zoom"></i></a>
-                    <a href="https://api.whatsapp.com/send?phone=919003712349" target="_blank"><i class="fab fa-whatsapp zoom"></i></a>
+                <div class="col-lg-4 my-3 my-lg-0">
+                    <a class="btn btn-dark btn-social mx-2" target="_blank" href="http://www.twitter.com/NotesMinute"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-dark btn-social mx-2" target="_blank" href="http://www.facebook.com/NotesMinute"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-dark btn-social mx-2" target="_blank" href="#!"><i class="fab fa-linkedin-in"></i></a>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-6 col-sm-6 small text-left text-muted">
-                    <p><a href="/covid-19-information" target="_blank">Covid-19 Information</a>
-                    </p>
+                <div class="col-lg-4 text-lg-right">
+                    <a class="mr-3" target="_blank" href="/privacy-policy">Privacy Policy</a>
+                    <a class="mr-3" target="_blank" href="/terms-condition">Terms of Use</a>
+                    <a target="_blank" href="/covid-19-info">Covid 19</a>
                 </div>
             </div>
         </div>
     </footer>
-    <!-- Footer end -->
     <!-- Bootstrap core JS-->
-    <script src="/assets/js/lib/jquery-min.js"></script>
-    <script src="/assets/js/lib/bootstrap-min.js"></script>
+    <script src="/assets/js/lib/jquery-v3-5-1.js"></script>
+    <script src="/assets/js/lib/bootstrap-v4-6-0-min.js"></script>
     <!-- Third party plugin JS-->
-    <script src="/assets/js/lib/jquery-easing-min.js"></script>
-    <script src="/assets/js/lib/jquery-magnific-popup-min.js"></script>
+    <script src="/assets/js/lib/anime-min.js"></script>
     <script src="/assets/js/lib/aos.js"></script>
+    <!-- Contact form JS-->
+    <script src="/assets/mail/jqBootstrapValidation.js"></script>
+    <script src="/assets/mail/contact_me.js"></script>
     <!-- Core theme JS-->
     <script src="/assets/js/scripts.js"></script>
-    <!-- APP JS -->
-    <script src="/assets/js/app.js"></script>
 </body>
 
 </html>
