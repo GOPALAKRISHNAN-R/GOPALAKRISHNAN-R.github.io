@@ -82,3 +82,70 @@ hr.divider {
 ::-webkit-scrollbar-thumb:hover {
     background: #18325c;
 }
+
+
+@media (min-width: 576px) {
+    .car-title {
+        font-weight: bold;
+        font-family: 'CenturyGothic-Bold';
+        font-size: 25px;
+        line-height: 28px;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .car-title {
+        font-weight: bold;
+        font-family: 'CenturyGothic-Bold';
+        font-size: 35px;
+        line-height: 35px;
+    }
+}
+
+@media (min-width: 992px) {
+
+    /* font for carousel heading */
+    .car-title {
+        font-weight: bold;
+        font-family: 'CenturyGothic-Bold';
+        font-size: 55px;
+        line-height: 1;
+        margin: 0;
+        padding: 10px 0 10px;
+        clear: both;
+    }
+}
+
+@media (min-width: 576px) {
+    .car-subtitle {
+        font-weight: normal;
+        font-family: 'CenturyGothic-Bold';
+        font-size: 10px;
+        line-height: 13px;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .car-subtitle {
+        font-weight: normal;
+        font-family: 'CenturyGothic-Bold';
+        font-size: 18px;
+        line-height: 22px;
+    }
+}
+
+@media (min-width: 992px) {
+
+    /* font for carousel heading */
+    .car-subtitle {
+        font-weight: normal;
+        font-family: 'CenturyGothic-Bold';
+        font-size: 22px;
+        line-height: 1;
+        margin: 0;
+        padding: 10px 0 10px;
+        clear: both;
+    }
+}
