@@ -21,7 +21,7 @@
 hr.divider {
     max-width: 3.25rem;
     border-width: 0.2rem;
-    border-color: #44d9e6;
+    border-color: #18325c;
 }
 
 /* team name and designation text block */
@@ -36,3 +36,49 @@ hr.divider {
     height: 100px;
     width: 500px;
 }*/
+
+
+/* zoom */
+
+.zoom {
+    transition: transform .2s;
+    /* Animation */
+    margin: 0 auto;
+}
+
+.zoom:hover {
+    transform: scale(1.1);
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+
+/* scroll indicator */
+.scroll-progress-bar {
+    margin-bottom: 70px;
+    width: 0%;
+    height: 4px;
+    background-color: #18325c;
+    position: fixed;
+    left: 0px;
+}
+
+/* scroll bar */
+/* width */
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #18325c;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #18325c;
+}
