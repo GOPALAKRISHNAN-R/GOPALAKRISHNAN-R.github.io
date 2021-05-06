@@ -15,6 +15,13 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
     <!-- AOS CSS -->
     <link rel="stylesheet" href="/assets/css/lib/aos.css">
+    <!-- datatable js/css -->
+    <script src="/assets/js/lib/jquery-v3-5-1.js"></script>
+    <script src="/assets/js/lib/bootstrap-v4-6-0-min.js"></script>
+    <script src="/assets/js/lib/dataTable-min.js"></script>
+    <script src="/assets/js/lib/dataTables-bootstrap-min.js"></script>
+    <link href="/assets/css/lib/dataTables-bootstrap-min.css" rel="stylesheet" />
+    <link href="/assets/css/lib/responsive-bootstrap-min.css" rel="stylesheet" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="/assets/css/styles.css" rel="stylesheet" />
     <!-- App CSS -->
@@ -130,6 +137,25 @@
             </a> -->
         </div>
     </header>
+    <!-- Departments-->
+    <section class="page-section bg-light" id="team">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">Departments</h2>
+                <hr class="divider my-4">
+            </div>
+            <!-- <div class="row" class="col-lg-10"> -->
+            <table id="example" class="table table-striped table-bordered" cellspacing="0" width="100%">
+                <thead>
+                    <tr>
+                        <th>Department Name</th>
+                        <th>Share</th>
+                    </tr>
+                </thead>
+            </table>
+            <!-- </div> -->
+        </div>
+    </section>
     <!-- Contact-->
     <section class="page-section" id="contact">
         <div class="container">
@@ -191,8 +217,8 @@
         </div>
     </footer>
     <!-- Bootstrap core JS-->
-    <script src="/assets/js/lib/jquery-v3-5-1.js"></script>
-    <script src="/assets/js/lib/bootstrap-v4-6-0-min.js"></script>
+    <!-- <script src="/assets/js/lib/jquery-v3-5-1.js"></script> -->
+    <!-- <script src="/assets/js/lib/bootstrap-v4-6-0-min.js"></script> -->
     <!-- Third party plugin JS-->
     <script src="/assets/js/lib/anime-min.js"></script>
     <script src="/assets/js/lib/aos.js"></script>
@@ -202,6 +228,7 @@
     <!-- Core theme JS-->
     <script src="/assets/js/scripts.js"></script>
     <script src="/assets/js/app.js"></script>
+    <script src="/assets/js/engineering/engineering.js"></script>
 </body>
 
 </html>
