@@ -2,6 +2,7 @@
     {
 
         "dept": "BE",
-        "share":""
+        "share":"https://api.whatsapp.com/send",
+        "default":"/coming-soon"
     }
 ]
