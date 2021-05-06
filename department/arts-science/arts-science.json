@@ -1,8 +1,8 @@
 [
-    {
+{
 
-        "dept": "BA",
-        "share":"https://api.whatsapp.com/send",
-        "default":"/coming-soon"
-    }
-]
+    "dept": "BA",
+    "share": "https://api.whatsapp.com/send?text=https://www.notesminute.com/coming-soon",
+    "default": "/coming-soon"
+
+}]
