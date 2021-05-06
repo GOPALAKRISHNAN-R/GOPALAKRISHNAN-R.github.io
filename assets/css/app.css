@@ -107,6 +107,9 @@ hr.divider {
 
     /* font for carousel heading */
     .car-title {
+        /*border-right: solid 3px rgba(0,255,0,.75);*/
+        /*white-space: nowrap;*/
+        /*overflow: hidden;*/
         font-weight: bold;
         font-family: 'CenturyGothic-Bold';
         font-size: 55px;
@@ -148,4 +151,63 @@ hr.divider {
         padding: 10px 0 10px;
         clear: both;
     }
+}
+
+@media (min-width: 576px) {
+    .car-title-1 {
+        font-weight: bold;
+        font-family: 'CenturyGothic-Bold';
+        font-size: 25px;
+        line-height: 28px;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .car-title-1 {
+        font-weight: bold;
+        font-family: 'CenturyGothic-Bold';
+        font-size: 35px;
+        line-height: 35px;
+    }
+}
+
+@media (min-width: 992px) {
+
+    /* font for carousel heading */
+    .car-title-1 {
+        border-right: solid 3px rgba(0,255,0,.75);
+        white-space: nowrap;
+        overflow: hidden;
+        font-weight: bold;
+        font-family: 'CenturyGothic-Bold';
+        font-size: 55px;
+        line-height: 1;
+        margin: 0;
+        padding: 10px 0 10px;
+        clear: both;
+    }
+}
+
+/*word animation*/
+
+
+/* Animation */
+p.car-anim {
+  animation: animated-text 2s steps(29,end) 1s 1 normal both,
+             animated-cursor 600ms steps(29,end) infinite;
+}
+
+/* text animation */
+
+@keyframes animated-text{
+  from{width: 0;}
+  to{width: 900px;}
+}
+
+/* cursor animations */
+
+@keyframes animated-cursor{
+  from{border-right-color: rgba(0,255,0,.75);}
+  to{border-right-color: transparent;}
 }
