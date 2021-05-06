@@ -84,7 +84,7 @@ hr.divider {
 }
 
 
-/*************** Carousel title and subtitle   ***********************/
+/*************** Carousel slide title and subtitle   ***********************/
 @media (max-width: 576px) {
     .car-title {
         font-weight: bold;
@@ -154,7 +154,7 @@ hr.divider {
     }
 }
 
-/*********** Carousel slide animation ***********/
+/*********** Carousel slid-1 animation ***********/
 
 @media (max-width: 576px) {
     .car-title-1 {
@@ -205,8 +205,6 @@ hr.divider {
     }
 }
 
-/*word animation*/
-
 
 /* Animation */
 p.car-title-1.car-anim {
@@ -214,7 +212,7 @@ p.car-title-1.car-anim {
         animated-cursor 600ms steps(11, end) infinite;
 }
 
-/********************* text animation *******/
+/******* text animation *******/
 @media (max-width: 576px) {
     @keyframes animated-text {
         from {
