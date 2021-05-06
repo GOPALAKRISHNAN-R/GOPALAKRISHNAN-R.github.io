@@ -9,7 +9,8 @@ $(document).ready(function() {
                 t.row.add([
                     //     value.name,
                     dept_url,
-                    share_url,
+                    value.available,
+                    share_url
                     //     value.intern_category
                 ]).draw(false);
             });
