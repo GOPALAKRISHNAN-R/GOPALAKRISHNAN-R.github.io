@@ -54,12 +54,13 @@ hr.divider {
 
 /* scroll indicator */
 .scroll-progress-bar {
-    margin-bottom: 70px;
+    /*margin-bottom: 70px;*/
     width: 0%;
     height: 4px;
     background-color: #18325c;
     position: fixed;
     left: 0px;
+    top:0%;
 }
 
 /* scroll bar */
