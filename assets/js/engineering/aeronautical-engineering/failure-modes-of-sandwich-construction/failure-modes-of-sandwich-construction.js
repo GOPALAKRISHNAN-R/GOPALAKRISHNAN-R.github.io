@@ -6,6 +6,14 @@ $(document).ready(function() {
             var topic1 = '';
             var topic_head = '';
 
+            var contributor_info = '';
+            contributor_info += '<div class="col-lg-12 col-md-12 col-sm-12">'
+            contributor_info += '<p class="text-right">'+data[0].contributor+'</p>'
+            contributor_info += '<p class="text-right"><a target="_blank" href="'+data[0].linked_in+'"><i class="fab fa-linkedin-in"></i></a></p>'
+            contributor_info += '</div>'
+            $("#contributor-info").append(contributor_info);
+
+
             topic_head += '<div style="float:right">'
             topic_head += '<label class="switch">'
             topic_head += '<input type="checkbox" id="view" checked >'
@@ -47,5 +55,8 @@ $(document).ready(function() {
             $('#topic-details1').append(topic1);
             $("#topic-details").css("display", "block");
             $("#topic-details1").css("display", "none");
+
+
+
         });
 });
