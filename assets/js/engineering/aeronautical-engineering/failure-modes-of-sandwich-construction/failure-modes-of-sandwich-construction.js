@@ -30,7 +30,7 @@ $(document).ready(function() {
             $('#topic-details').append(topic);
             topic1 += '<div class="row">'
             $.each(data, function(key, value) {
-                topic1 += '<div class="col-lg-12 col-md-6 col-sm-6 ">'
+                topic1 += '<div class="col-lg-12 col-md-12 col-sm-12 ">'
                 topic1 += '<div class="mt-5 ">'
                 topic1 += '<h4 class="text-muted mt-2">' + value.heading + '</h4>'
                 topic1 += '<hr class="divider ml-0">'
