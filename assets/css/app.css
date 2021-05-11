@@ -400,7 +400,7 @@ input:checked + .slider:before {
 
 .price .grey {
   background-color: #eee;
-  font-size: 14px;
+  font-size: 13px;
 }
 
 .button {
