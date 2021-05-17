@@ -10,3 +10,12 @@ function myFunction() {
 
 // initialize AOS
 AOS.init();
+
+
+$("#view").click(function() {
+    $("#topic-details").toggle();
+    $("#topic-details1").toggle();
+});
+
+$("#topic-details").css("display", "block");
+$("#topic-details1").css("display", "none");
