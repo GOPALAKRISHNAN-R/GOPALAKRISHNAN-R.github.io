@@ -1,0 +1,74 @@
+[
+{
+    "id": "1",
+    "question": "#1 What do you do in CLIP",
+    "answer": "We setup a community of students and faculties and train them in technologies",
+    "div_id": "collapseOne",
+    "data_target": "#collapseOne",
+    "aria_labelledby": "headingOne"
+},
+{
+    "id": "2",
+    "question": "#2 What are the technologies you focus on",
+    "answer": "We focus on any open source technology. For the moment, we have our cohort being trained on ubuntu - Linux, Lucee and MySQL",
+    "div_id": "collapseTwo",
+    "data_target": "#collapseTwo",
+    "aria_labelledby": "headingTwo"
+},
+{
+    "id": "3",
+    "question": "#3 Is there any money involved in this",
+    "answer": "No, we don't charge any money",
+    "div_id": "collapseThree",
+    "data_target": "#collapseThree",
+    "aria_labelledby": "headingThree"
+},
+{
+    "id": "4",
+    "question": "#4 What is your Engagement Model",
+    "answer": "We signup an MoU with like-minded Educational Institutes and work parallel with them.",
+    "div_id": "collapseFour",
+    "data_target": "#collapseFour",
+    "aria_labelledby": "headingFour"
+},
+{
+    "id": "5",
+    "question": "#5 What happens to the prototypes",
+    "answer": "Once the prototypes are built, if we find good talent aligned to our vision, we co-work with them to transition the products into startups.",
+    "div_id": "collapseFive",
+    "data_target": "#collapseFive",
+    "aria_labelledby": "headingFive"
+},
+{
+    "id": "6",
+    "question": "#6 Do you focus on Non-Technical area",
+    "answer": "Yes, we have one Marketing program which involves no coding. But definitely the usage of a computer is mandatory.",
+    "div_id": "collapseSix",
+    "data_target": "#collapseSix",
+    "aria_labelledby": "headingSix"
+},
+{
+    "id": "7",
+    "question": "#7 What are the Non-Technical outcomes",
+    "answer": "Whitepapers, case-studies, best practices, consulting / services startups",
+    "div_id": "collapseSeven",
+    "data_target": "#collapseSeven",
+    "aria_labelledby": "headingSeven"
+},
+{
+    "id": "8",
+    "question": "#8 What is the duration of the Training / Project",
+    "answer": "We work on a 40 hour training and a 120 hour prototyping cohort which will span for 90 days",
+    "div_id": "collapseEight",
+    "data_target": "#collapseEight",
+    "aria_labelledby": "headingEight"
+},
+{
+    "id": "9",
+    "question": "#9 What is in it for the Candidate getting trained",
+    "answer": "Clear exposure to relevant technologies and the strategy to develop his product",
+    "div_id": "collapseNine",
+    "data_target": "#collapseNine",
+    "aria_labelledby": "headingNine"
+}
+]
