@@ -1,0 +1,28 @@
+[
+{
+    "id": "1",
+    "position_name":"JAVA DEVELOPER",
+    "headquarters":"Headquarters:",
+    "headquarters_name":"Coimbatore",
+    "employment":"Employment Type:",
+    "employment_type":"Full Time",
+    "apply_link":"mailto:info@acodeidea.com"
+},
+{
+    "id": "2",
+    "position_name":"TRACKWISE ENGINEER",
+    "headquarters":"Headquarters:",
+    "headquarters_name":"Coimbatore",
+    "employment":"Employment Type:",
+    "employment_type":"Full Time",
+    "apply_link":"mailto:info@acodeidea.com"
+},
+{
+    "id": "3",
+    "position_name":"VALIDATION ENGINEER",
+    "headquarters":"Headquarters:",
+    "headquarters_name":"Coimbatore",
+    "employment":"Employment Type:",
+    "employment_type":"Full Time",
+    "apply_link":"mailto:info@acodeidea.com"
+}]
