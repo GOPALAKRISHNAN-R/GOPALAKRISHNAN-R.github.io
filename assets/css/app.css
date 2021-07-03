@@ -1,3 +1,52 @@
+/* masthead for about */
+
+header.mastheadFor {
+  padding-top: 10.5rem;
+  padding-bottom: 6rem;
+  text-align: center;
+  color: #fff;
+
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+}
+header.mastheadFor .mastheadFor-subheading {
+  font-size: 1.5rem;
+  font-style: italic;
+  line-height: 1.5rem;
+  margin-bottom: 25px;
+  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+header.mastheadFor .mastheadFor-heading {
+  font-size: 3.25rem;
+  font-weight: 700;
+  line-height: 3.25rem;
+  margin-bottom: 2rem;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+@media (min-width: 768px) {
+  header.mastheadFor {
+    padding-top: 17rem;
+    padding-bottom: 12.5rem;
+  }
+  header.mastheadFor .mastheadFor-subheading {
+    font-size: 2.25rem;
+    font-style: italic;
+    line-height: 2.25rem;
+    margin-bottom: 2rem;
+  }
+  header.mastheadFor .mastheadFor-heading {
+    font-size: 4.5rem;
+    font-weight: 700;
+    line-height: 4.5rem;
+    margin-bottom: 4rem;
+  }
+}
+
+
+
 /* Drop down menu */
 
 @media all and (min-width: 360px) {
@@ -36,7 +85,7 @@
     /*margin-bottom: 70px;*/
     width: 0%;
     height: 4px;
-    background-color: #28B7EF;
+    background-color: #377DFF;
     position: fixed;
     left: 0px;
     top: 0%;
@@ -55,16 +104,16 @@
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: #28B7EF;
+    background: #377DFF;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: #28B7EF;
+    background: #377DFF;
 }
 
 /*Clip masthead*/
-header.masthead-clip {
+header.mastheadFor-clip {
   padding-top: 10.5rem;
   padding-bottom: 6rem;
   text-align: center;
@@ -75,14 +124,14 @@ header.masthead-clip {
   background-position: center center;
   background-size: cover;
 }
-header.masthead-clip .masthead-clip-subheading {
+header.mastheadFor-clip .mastheadFor-clip-subheading {
   font-size: 1.5rem;
   font-style: italic;
   line-height: 1.5rem;
   margin-bottom: 25px;
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
-header.masthead-clip .masthead-heading {
+header.mastheadFor-clip .mastheadFor-heading {
   font-size: 3.25rem;
   font-weight: 700;
   line-height: 3.25rem;
@@ -91,17 +140,17 @@ header.masthead-clip .masthead-heading {
 }
 
 @media (min-width: 768px) {
-  header.masthead-clip {
+  header.mastheadFor-clip {
     padding-top: 17rem;
     padding-bottom: 12.5rem;
   }
-  header.masthead-clip .masthead-subheading {
+  header.mastheadFor-clip .mastheadFor-subheading {
     font-size: 2.25rem;
     font-style: italic;
     line-height: 2.25rem;
     margin-bottom: 2rem;
   }
-  header.masthead-clip .masthead-heading {
+  header.mastheadFor-clip .mastheadFor-heading {
     font-size: 4.5rem;
     font-weight: 700;
     line-height: 4.5rem;
