@@ -7,6 +7,7 @@ $(document).ready(function() {
             $.each(data, function(key, value) {
             timeline += '<li class='+value.li_class+'>'
             timeline += '<div class="timeline-image">'
+            timeline += '<img class="rounded-circle img-fluid" src="/assets/img/about/meeting.png"/>'
             timeline += '</div>'
             timeline += '<div class="timeline-panel">'
             timeline += '<div class="timeline-heading">'
@@ -14,7 +15,7 @@ $(document).ready(function() {
             timeline += '<h4 class="subheading">'+value.subheading+'</h4>'
             timeline += '</div>'
             timeline += '<div class="timeline-body">'
-            timeline += '<p class="text-muted"><a href="">Visit Album</a></p>'
+            timeline += '<p class="text-muted"><a href="'+value.visit_link+'">Visit Album</a></p>'
             timeline += '</div>'
             timeline += '</div>'
             timeline += '</li>'
