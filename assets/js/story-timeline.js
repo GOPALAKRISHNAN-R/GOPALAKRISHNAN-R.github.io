@@ -15,7 +15,7 @@ $(document).ready(function() {
             timeline += '<h4 class="subheading">'+value.subheading+'</h4>'
             timeline += '</div>'
             timeline += '<div class="timeline-body">'
-            timeline += '<p class="text-muted"><a taget="_blank" href="'+value.visit_link+'">Visit Album</a></p>'
+            timeline += '<p class="text-muted"><a target="_blank" href="'+value.visit_link+'">Visit Album</a></p>'
             timeline += '</div>'
             timeline += '</div>'
             timeline += '</li>'
