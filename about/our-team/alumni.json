@@ -32,5 +32,12 @@
 	"name":"MANOJKUMAR MARIMUTHU",
 	"position_name":"Software Engineer",
 	"linkedin_url":"https://www.linkedin.com/in/manoj-m8497/"
+},
+{
+    "id":"6",
+    "image":"/assets/img/team/santhanakrishna.png",
+    "name":"SANTHANAKRISHNAN RAGHURAMAN",
+    "position_name":"Validation Engineer",
+    "linkedin_url":""
 }
 ]
