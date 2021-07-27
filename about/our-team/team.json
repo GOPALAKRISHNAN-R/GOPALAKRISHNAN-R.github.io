@@ -79,28 +79,28 @@
 {
     "id":"12",
     "image":"/assets/img/team/1_Nandhini.jpg",
-    "name":"Nandhini Natarajan",
+    "name":"NANDHINI NATARAJAN",
     "position_name":"Senior Validation Engineer",
     "linkedin_url":"https://www.linkedin.com/in/nandhini-natarajan-7a1558105/"
 },
 {
     "id":"13",
-    "image":"/assets/img/team/2_Narender.jpg",
-    "name":"Narender Jangid",
-    "position_name":"Validation Engineer",
-    "linkedin_url":"https://www.linkedin.com/in/narender-jangid-232609147"
-},
-{
-    "id":"14",
     "image":"/assets/img/team/3_Navaneeth.jpg",
-    "name":"Navneeth",
+    "name":"NAVANEETHA KRISHNAN",
     "position_name":"Senior Technical Architect",
     "linkedin_url":""
 },
 {
+    "id":"14",
+    "image":"/assets/img/team/2_Narender.jpg",
+    "name":"NARENDER JANGID",
+    "position_name":"Validation Engineer",
+    "linkedin_url":"https://www.linkedin.com/in/narender-jangid-232609147"
+},
+{
     "id":"15",
     "image":"/assets/img/team/4_Kani.png",
-    "name":"Kanimozhi Palanisamy",
+    "name":"KANIMOZHI PALANISAMY",
     "position_name":"Validation Engineer",
     "linkedin_url":"https://www.linkedin.com/in/kanimozhi-palanisamy-266a9020a"
 }]
