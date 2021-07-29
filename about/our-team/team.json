@@ -14,20 +14,6 @@
     "linkedin_url":"https://www.linkedin.com/in/naveenieus/"
 },
 {
-    "id":"3",
-    "image":"/assets/img/team/vishnu.png",
-    "name":"VISHNU AYYAPPAN",
-    "position_name":"Software Engineer",
-    "linkedin_url":"https://www.linkedin.com/in/vishnu-a-266536bb/"
-},
-{
-    "id":"4",
-    "image":"/assets/img/team/gowtham.png",
-    "name":"GOWTHAM LOGANATHAN",
-    "position_name":"Software Engineer",
-    "linkedin_url":"https://www.linkedin.com/in/gowtham-loganathan-740401175/"
-},
-{
     "id":"5",
     "image":"/assets/img/team/fazil.png",
     "name":"MOHAMED FAZIL",
