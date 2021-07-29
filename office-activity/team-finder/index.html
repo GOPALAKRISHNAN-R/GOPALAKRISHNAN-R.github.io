@@ -70,7 +70,7 @@
             </div>
             <div class="row mt-5">
                 <div class="col-lg-8 col-md-12 col-sm-12">
-                    <input type="text" id="participant" placeholder="Participant Name"  />
+                    <input type="text" id="participant" placeholder="Participant Name" />
                 </div>
                 <div class="col-lg-4 col-md-12 col-sm-12">
                     <button type="button" id="btnAdd" class="btn btn-primary">Add Participant</button>
@@ -82,11 +82,110 @@
     <section class="page-section bg-light">
         <div class="container">
             <div class="row" id="activity-container">
+                <div class="col-lg-5 col-md-12 col-sm-12">
+                    <label for="exampleFormControlSelect2">Example multiple select</label>
+                    <select multiple class="form-control" id="exampleFormControlSelect2">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select>
+                </div>
+                <div class="col-lg-2 col-md-12 col-sm-12">
+                    <button type="button" class="btn btn-info">Info</button>
+                    <!-- <i class="fas fa-file-invoice fa-stack-1x text-primary"></i> -->
+                    <button type="button" class="btn btn-danger">Danger</button>
+                </div>
+                <div class="col-lg-5 col-md-12 col-sm-12">
+                    <label for="exampleFormControlSelect2">Example multiple select</label>
+                    <select multiple class="form-control" id="exampleFormControlSelect2">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select>
+                </div>
             </div>
         </div>
     </section>
     <!-- generate team -->
     <section class="page-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <select class="custom-select my-1 mr-sm-2" id="generateTeam">
+                        <option selected>Choose...</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                    <button type="button" id="btnGenerate" class="btn btn-primary">Generate Teams</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Team List Score Board -->
+    <section class="page-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <h4>Teams List</h4>
+                    <button type="button" id="viewScoreBoard" class="btn btn-primary">View Scoreboard</button>
+                    <button type="button" id="hideScoreBoard" class="btn btn-primary">Hide Scoreboard</button>
+                </div>
+            </div>
+            <hr>
+            <div class="row mt-3" id="viewScoreBoardDetails">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <table class="table">
+                        <thead class="thead-light">
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">First</th>
+                                <th scope="col">Last</th>
+                                <th scope="col">Handle</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>Mark</td>
+                                <td>Otto</td>
+                                <td>@mdo</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>Jacob</td>
+                                <td>Thornton</td>
+                                <td>@fat</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td>Larry</td>
+                                <td>the Bird</td>
+                                <td>@twitter</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="card">
+                        <h5 class="card-header">Featured</h5>
+                        <div class="card-body">
+                            <h5 class="card-title">Special title treatment</h5>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
     <!-- Map -->
     <section class="page-section">
