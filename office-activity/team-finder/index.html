@@ -83,28 +83,19 @@
         <div class="container">
             <div class="row" id="activity-container">
                 <div class="col-lg-5 col-md-12 col-sm-12">
-                    <label for="exampleFormControlSelect2">Example multiple select</label>
-                    <select multiple class="form-control" id="exampleFormControlSelect2">
-                        <option>1</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>5</option>
+                    <p id="totalTeamMembers"></p>
+                    <select multiple class="form-control" id="team-container">
                     </select>
                 </div>
                 <div class="col-lg-2 col-md-12 col-sm-12">
-                    <button type="button" class="btn btn-info">Info</button>
-                    <!-- <i class="fas fa-file-invoice fa-stack-1x text-primary"></i> -->
-                    <button type="button" class="btn btn-danger">Danger</button>
+                    <p><button type="button" class="btn btn-info" id="moveRight">MoveTo</button></p>
+                    <p><button type="button" class="btn btn-danger" id="btnDelete">
+                            Del</button> </p>
                 </div>
                 <div class="col-lg-5 col-md-12 col-sm-12">
-                    <label for="exampleFormControlSelect2">Example multiple select</label>
-                    <select multiple class="form-control" id="exampleFormControlSelect2">
-                        <option>1</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>5</option>
+                    <!-- <p id="selectedTeamMembers"></p> -->
+                    <label for="exampleFormControlSelect2" id="selectedTeamMembers">Selected participants (0)</label>
+                    <select multiple class="form-control" id="selectedListParticipants">
                     </select>
                 </div>
             </div>
@@ -243,5 +234,7 @@
     <script src="/assets/js/lib/aos.js"></script>
     <!-- Core theme JS-->
     <script src="/assets/js/scripts.js"></script>
+    <script src="/assets/js/jquery.selection.js"></script>
     <script src="/assets/js/app.js"></script>
+    <script src="/assets/js/team-finder.js"></script>
 </body>
