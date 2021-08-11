@@ -7,13 +7,6 @@
     "customers": "Roopa"
 },
 {
-    "id": "3",
-    "image_1": "",
-    "image_2": "",
-    "reviews": "I should thank you for exactly reading my mind and understanding my requirements. The outcome is beyond words and this is one of the best gifts I guess. The scrap book was so neat and creative and the finishing is so professional. Thank you so much.",
-    "customers": "Swati"
-},
-{
     "id": "4",
     "image_1": "",
     "image_2": "",
@@ -33,4 +26,25 @@
     "image_2": "",
     "reviews": "It's been two years from my frst order..  u never disappointed me.. thank you soo much… waiting for Ur new creative works..",
     "customers": "Raksha"
+},
+{
+    "id": "7",
+    "image_1": "",
+    "image_2": "",
+    "reviews": "Got a dream catcher done from her it is beautiful.. she was very accommodating and check with me every now and then on the designs.. the final product has come out so beautifully.. thanks a lot and will Highly recommend   ",
+    "customers": "Sharadha"
+},
+{
+    "id": "8",
+    "image_1": "",
+    "image_2": "",
+    "reviews": "Thanks for the beautiful handmade baby album! It really made my day!!",
+    "customers": "Shobana"
+},
+{
+    "id": "9",
+    "image_1": "",
+    "image_2": "",
+    "reviews": "You will be my only preference for all handmade gifts hereafter. Thanks a ton! ",
+    "customers": "Ashwathi"
 }]
