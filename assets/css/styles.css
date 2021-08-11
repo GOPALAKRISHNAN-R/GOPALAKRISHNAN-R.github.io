@@ -10144,7 +10144,7 @@ img::-moz-selection {
     margin-right: 0;
   }
 }
-header.masthead {
+/*header.masthead {
   padding-top: 10.5rem;
   padding-bottom: 6rem;
   text-align: center;
@@ -10168,9 +10168,41 @@ header.masthead .masthead-heading {
   line-height: 3.25rem;
   margin-bottom: 2rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}*/
+
+header.masthead {
+  padding-top: 4rem;
+  /*padding-top: 10rem;*/
+  /*padding-bottom: calc(10rem - 4.5rem);*/
+  /*background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/bg-masthead.jpg");*/
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
 }
 
+@media (min-width: 992px) {
+  header.masthead {
+    height: 100vh;
+    min-height: 40rem;
+    padding-top: 4.5rem;
+    padding-bottom: 0;
+  }
+  header.masthead p {
+    font-size: 1.15rem;
+  }
+  header.masthead h1 {
+    font-size: 3rem;
+  }
+}
+@media (min-width: 1200px) {
+  header.masthead h1 {
+    font-size: 3.5rem;
+  }
+}
+/*
 @media (min-width: 768px) {
+
   header.masthead {
     padding-top: 17rem;
     padding-bottom: 12.5rem;
@@ -10187,7 +10219,7 @@ header.masthead .masthead-heading {
     line-height: 4.5rem;
     margin-bottom: 4rem;
   }
-}
+}*/
 #portfolio .portfolio-item {
   max-width: 25rem;
   margin-left: auto;
