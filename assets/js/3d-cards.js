@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-    $.getJSON("/product/photo-gifts/product.json",
+    $.getJSON("/product/3d-cards/product.json",
         function(data) {
 
             var product_container = '';
