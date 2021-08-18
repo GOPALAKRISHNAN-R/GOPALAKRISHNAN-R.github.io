@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "Expense Claim",
+    "iconUrl": "https://image.flaticon.com/icons/svg/3176/3176361.svg",
+    "navigation_path": "expense-claim"
+  },
+  {
+    "id": 2,
+    "title": "Teams Finder",
+    "iconUrl": "https://image.flaticon.com/icons/svg/993/993854.svg",
+    "navigation_path": "teams-finder"
+  },
+  {
+    "id": 3,
+    "title": "Spinner",
+    "iconUrl": "https://image.flaticon.com/icons/svg/3205/3205208.svg",
+    "navigation_path": "spinner"
+  }
+]
