@@ -1,0 +1,17 @@
+[
+{
+	"id":"1",
+	"activity":"Expense Claim",
+	"link":"/office-activity/expense-claim"
+},
+{
+	"id":"2",
+	"activity":"Team Finder",
+	"link":"/office-activity/team-finder"
+},
+{
+	"id":"3",
+	"activity":"Spinner",
+	"link":"/office-activity/spinner"
+}
+]

@@ -1,0 +1,57 @@
+[{
+	"id":"1",
+    "image":"/assets/img/team/saranya.png",
+    "name":"SARANYA SANKARAN",
+    "position_name":"Software Engineer",
+    "linkedin_url":"https://www.linkedin.com/in/saranya-sankaran-7a647568/"
+},
+{
+	"id":"2",
+    "image":"/assets/img/team/pankajam.png",
+    "name":"PANKAJAM KRISHNAMURTHY",
+    "position_name":"Software Engineer",
+    "linkedin_url":"https://www.linkedin.com/in/pankajam-krishnamurthy-501b13a5/"
+},
+{
+	"id":"3",
+    "image":"/assets/img/team/rajalakshmi.png",
+    "name":"RAJALAKSHMI JAGADESHCHANDRAN",
+    "position_name":"Software Engineer",
+    "linkedin_url":"https://www.linkedin.com/in/pankajam-krishnamurthy-501b13a5/"
+},
+{
+	"id":"4",
+	"image":"/assets/img/team/prasath.png",
+	"name":"PRASATH RAVICHANDRAN",
+	"position_name":"Software Engineer",
+	"linkedin_url":"https://www.linkedin.com/in/prasathravi/"
+},
+{
+	"id":"5",
+	"image":"/assets/img/team/manoj.png",
+	"name":"MANOJKUMAR MARIMUTHU",
+	"position_name":"Software Engineer",
+	"linkedin_url":"https://www.linkedin.com/in/manoj-m8497/"
+},
+{
+    "id":"6",
+    "image":"/assets/img/team/santhanakrishna.png",
+    "name":"SANTHANAKRISHNAN RAGHURAMAN",
+    "position_name":"Validation Engineer",
+    "linkedin_url":""
+},
+{
+    "id":"3",
+    "image":"/assets/img/team/vishnu.png",
+    "name":"VISHNU AYYAPPAN",
+    "position_name":"Software Engineer",
+    "linkedin_url":"https://www.linkedin.com/in/vishnu-a-266536bb/"
+},
+{
+    "id":"4",
+    "image":"/assets/img/team/gowtham.png",
+    "name":"GOWTHAM LOGANATHAN",
+    "position_name":"Software Engineer",
+    "linkedin_url":"https://www.linkedin.com/in/gowtham-loganathan-740401175/"
+}
+]
