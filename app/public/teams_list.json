@@ -17,17 +17,17 @@
   {
     "teamId": 4,
     "name": "Vishnu Ayyappan",
-    "active": true
+    "active": false
   },
   {
     "teamId": 5,
     "name": "Gowtham Loganathan",
-    "active": true
+    "active": false
   },
   {
     "teamId": 6,
     "name": "Santhanakrishnan Raghuraman",
-    "active": true
+    "active": false
   },
   {
     "teamId": 7,
@@ -47,7 +47,7 @@
   {
     "teamId": 10,
     "name": "Manojkumar Marimuthu",
-    "active": true
+    "active": false
   },
   {
     "teamId": 11,
@@ -88,5 +88,20 @@
     "teamId": 18,
     "name": "Rajalakshmi JagadeshChandran",
     "active": false
+  },
+  {
+    "teamId": 19,
+    "name": "Nandhini Natarajan",
+    "active": true
+  },
+  {
+    "teamId": 20,
+    "name": "Narender Jangid",
+    "active": true
+  },
+  {
+    "teamId": 21,
+    "name": "Kanimozhi Palanisamy",
+    "active": true
   }
 ]
