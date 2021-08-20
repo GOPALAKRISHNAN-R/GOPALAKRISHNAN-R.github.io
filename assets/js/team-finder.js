@@ -22,32 +22,24 @@ $(function() {
 
             $.each(data, function(key, value) {
                 if (value.active) {
-                    team += '<option>' + value.name + '</option>'
+                    team += '<div class="col-lg-4 col-md-6 col-sm-12">'
+                    team += '<div class="form-check form-check-inline">'
+                    team += '<input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="' + value.name + '">'
+                    team += '<label class="form-check-label" for="inlineCheckbox1">' + value.name + '</label>'
+                    team += '</div>'
+                    team += '</div>'
                     count += 1
                 }
             });
 
-            $("#team-container").click(function() {
-                teams = $("#team-container option").filter(":selected").text();
-            });
-
-            $("#selectedListParticipants").click(function() {
-                teams = $("#selectedListParticipants option").filter(":selected").text();
-            });
 
 
 
             $("body").click(function(event) {
                 let target = event.target.id;
                 switch (target) {
-                    case "btnAdd":
-                        add();
-                        break;
-                    case "moveRight":
-                        moveRight(teams);
-                        break;
-                    case "btnDelete":
-                        deleteParticipant();
+                    case "selectTeam":
+                        selectedTeamMembersFromList();
                         break;
                     case "btnGenerate":
                         generateTeam();
@@ -64,29 +56,17 @@ $(function() {
                 }
             });
 
-            function add() {
-                participant = $("#participant").val();
-                if (participant != "") {
-                    $("#team-container").prepend('<option>' + participant + '</option>')
-                    $("#participant").val('');
-                    count += 1
+            function selectedTeamMembersFromList() {
+                // body...
+                selectedTeamMembers = $('input[type=checkbox]:checked').map(function(_, el) {
+                    return $(el).val();
+                }).get();
+                $.each(selectedTeamMembers, function(index, value) {
+                    participantList += '<option>'+(index+1)+') ' + value + '</option>'
+                });
 
-                }
-            }
+                $('#selected-team').append(participantList);
 
-            function moveRight(teams) {
-                if (teams != '') {
-                    participantList = '<option>' + teams + '</option>'
-                    selectedCount += 1;
-                }
-
-                $('#selectedListParticipants').append(participantList);
-
-            }
-
-            function deleteParticipant() {
-                $("#selectedListParticipants option").filter(":selected").remove();
-                selectedCount -= 1;
             }
 
             function generateTeam() {
@@ -97,11 +77,11 @@ $(function() {
                 //         break;
                 // }
 
-                var generateCount = parseInt($("#generateTeam option").filter(":selected").text(),10);
+                var generateCount = parseInt($("#generateTeam option").filter(":selected").text(), 10);
 
-                switch(generateCount){
+                switch (generateCount) {
                     case 1:
-                        generateCount /=selectedCount;
+                        generateCount /= selectedCount;
                         alert(generateCount);
                         break;
                     case 2:
@@ -122,6 +102,7 @@ $(function() {
             $('#selectedTeamMembers').append(selectedTeamMembers);
             $('#team-container').append(team);
             $('#totalTeamMembers').append(totalTeam);
+
 
         });
 

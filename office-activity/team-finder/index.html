@@ -68,32 +68,21 @@
                     <h3 class="text-primary text-center text-uppercase">Welcome to Teams Finder</h3>
                 </div>
             </div>
-            <div class="row mt-5">
-                <div class="col-lg-8 col-md-12 col-sm-12">
-                    <input type="text" id="participant" placeholder="Participant Name" />
-                </div>
-                <div class="col-lg-4 col-md-12 col-sm-12">
-                    <button type="button" id="btnAdd" class="btn btn-primary">Add Participant</button>
-                </div>
-            </div>
         </div>
     </section>
     <!-- team list -->
     <section class="page-section bg-light">
         <div class="container">
-            <div class="row" id="activity-container">
-                <div class="col-lg-5 col-md-12 col-sm-12">
-                    <p id="totalTeamMembers"></p>
-                    <select multiple class="form-control" id="team-container">
-                    </select>
+            <div class="row" id="team-container">
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-12 col-md-12 col-sm-12 text-center">
+                    <button type="submit" class="btn btn-primary" id="selectTeam">Select</button>
                 </div>
-                <div class="col-lg-2 col-md-12 col-sm-12">
-                    <p><button type="button" class="btn btn-info" id="moveRight">MoveTo</button></p>
-                    <p><button type="button" class="btn btn-danger" id="btnDelete">Del</button> </p>
-                </div>
-                <div class="col-lg-5 col-md-12 col-sm-12">
-                    <p id="selectedTeamMembers"></p>
-                    <select multiple class="form-control" id="selectedListParticipants">
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <select multiple class="form-control" id="selected-team">
                     </select>
                 </div>
             </div>
