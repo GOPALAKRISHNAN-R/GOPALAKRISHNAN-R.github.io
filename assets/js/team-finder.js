@@ -25,7 +25,7 @@ $(function() {
 
             $.each(data, function(key, value) {
                 if (value.active) {
-                    team += '<div class="col-lg-4 col-md-6 col-sm-12">'
+                    team += '<div class="col-lg-3 col-md-6 col-sm-12">'
                     team += '<div class="form-check form-check-inline">'
                     team += '<input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="' + value.name + '">'
                     team += '<label class="form-check-label" for="inlineCheckbox1">' + value.name + '</label>'
@@ -42,10 +42,12 @@ $(function() {
                         break;
                     case "addBtn":
                         result += 5;
+                        // $("#sum").html(result);
                         outputResult(result);
                         break;
                     case "subBtn":
                         result -= 5;
+                        // $("#sum").html(result);
                         outputResult(result);
                         break;
                     case "btnGenerate":
@@ -91,7 +93,7 @@ $(function() {
                         generateTeamList += '<div class="card">'
                         generateTeamList += '<h5 class="card-header">' + value + '</h5>'
                         generateTeamList += '<div class="card-body">'
-                        generateTeamList += '<p class="card-text"><button type="button" class="btn btn-success" id="addBtn">+5</button><button type="button" class="btn btn-danger" id="subBtn">-5</button> = ' + outputResult(result) + '</p>'
+                        generateTeamList += '<p class="card-text"><button type="button" class="btn btn-success" id="addBtn">+5</button><button type="button" class="btn btn-danger" id="subBtn">-5</button> = <span id="sum"></span></p>'
                         generateTeamList += '</div>'
                         generateTeamList += '</div>'
                         generateTeamList += '</div>'
@@ -115,7 +117,7 @@ $(function() {
                     // console.log(i + "array " + chunks[i]);
                     generateTeamList += '<div class="col-lg-6 col-md-12 col-sm-12">'
                     generateTeamList += '<div class="card">'
-                    generateTeamList += '<h5 class="card-header">Team ' + (i + 1) + '<span><button type="button" class="btn btn-success" id="addBtn">+5</button><button type="button" class="btn btn-danger" id="subBtn">-5</button> = ' + outputResult(result) + '</span></h5>'
+                    generateTeamList += '<h5 class="card-header">Team ' + (i + 1) + '<span><button type="button" class="btn btn-success" id="addBtn">+5</button><button type="button" class="btn btn-danger" id="subBtn">-5</button> = <span id="sum"></span></span></h5>'
 
                     generateTeamList += '<div class="card-body">'
                     generateTeamList += '<p class="card-text">' + chunks[i] + '</p>'
@@ -130,7 +132,8 @@ $(function() {
 
 
             function outputResult(result) {
-                return result;
+                 $("#sum").html(result);
+                // return result;
             }
             // function teamGenerate(count, countvalue) {
             //     var teamCount = count / countvalue;
