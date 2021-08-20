@@ -12,6 +12,9 @@ var selectedTeamMembers = [];
 
 var totalSelectedTeamMembers = [];
 
+var generateTeamList = '';
+
+var result = 0;
 
 $(function() {
     $.getJSON("/office-activity/team.json",
@@ -28,18 +31,22 @@ $(function() {
                     team += '<label class="form-check-label" for="inlineCheckbox1">' + value.name + '</label>'
                     team += '</div>'
                     team += '</div>'
-                    count += 1
                 }
             });
-
-
-
 
             $("body").click(function(event) {
                 let target = event.target.id;
                 switch (target) {
                     case "selectTeam":
                         selectedTeamMembersFromList();
+                        break;
+                    case "addBtn":
+                        result += 5;
+                        outputResult(result);
+                        break;
+                    case "subBtn":
+                        result -= 5;
+                        outputResult(result);
                         break;
                     case "btnGenerate":
                         generateTeam();
@@ -56,48 +63,79 @@ $(function() {
                 }
             });
 
+
             function selectedTeamMembersFromList() {
                 // body...
                 selectedTeamMembers = $('input[type=checkbox]:checked').map(function(_, el) {
                     return $(el).val();
                 }).get();
                 $.each(selectedTeamMembers, function(index, value) {
-                    participantList += '<option>'+(index+1)+') ' + value + '</option>'
+
+                    participantList += '<option>' + (index + 1) + ') ' + value + '</option>'
+
+                    count = index + 1;
                 });
 
+                // var item = selectedTeamMembers[Math.floor(Math.random() * selectedTeamMembers.length)];
+                // alert(item)
                 $('#selected-team').append(participantList);
 
             }
 
             function generateTeam() {
-                // selectedCount =1;
-                // switch (selectedCount) {
-                //     case 1:
-                //         alert(selectedCount);
-                //         break;
-                // }
 
                 var generateCount = parseInt($("#generateTeam option").filter(":selected").text(), 10);
+                if (generateCount == 1) {
+                    $.each(selectedTeamMembers, function(index, value) {
+                        generateTeamList += '<div class="col-lg-6 col-md-12 col-sm-12">'
+                        generateTeamList += '<div class="card">'
+                        generateTeamList += '<h5 class="card-header">' + value + '</h5>'
+                        generateTeamList += '<div class="card-body">'
+                        generateTeamList += '<p class="card-text"><button type="button" class="btn btn-success" id="addBtn">+5</button><button type="button" class="btn btn-danger" id="subBtn">-5</button> = ' + outputResult(result) + '</p>'
+                        generateTeamList += '</div>'
+                        generateTeamList += '</div>'
+                        generateTeamList += '</div>'
 
-                switch (generateCount) {
-                    case 1:
-                        generateCount /= selectedCount;
-                        alert(generateCount);
-                        break;
-                    case 2:
-                        alert(generateCount);
-                        break;
-                    case 3:
-                        alert(generateCount);
-                        break;
+                    });
+                    $('#generate-card-team').append(generateTeamList);
+                } else {
+                    chunkArray(selectedTeamMembers, generateCount);
                 }
-
 
             }
 
-            totalTeam += '<label for="exampleFormControlSelect2">List of participants (' +
-                count + ')</label>'
-            selectedTeamMembers = '<label for="exampleFormControlSelect2">Selected participants (' + selectedCount + ')</label>'
+            function chunkArray(arr, n) {
+
+                var chunkLength = Math.max(arr.length / n, 1);
+                var chunks = [];
+                for (var i = 0; i < n; i++) {
+                    if (chunkLength * (i + 1) <= arr.length) chunks.push(arr.slice(chunkLength * i, chunkLength * (i + 1)));
+                }
+                for (var i = 0; i < n; i++) {
+                    // console.log(i + "array " + chunks[i]);
+                    generateTeamList += '<div class="col-lg-6 col-md-12 col-sm-12">'
+                    generateTeamList += '<div class="card">'
+                    generateTeamList += '<h5 class="card-header">Team ' + (i + 1) + '<span><button type="button" class="btn btn-success" id="addBtn">+5</button><button type="button" class="btn btn-danger" id="subBtn">-5</button> = ' + outputResult(result) + '</span></h5>'
+
+                    generateTeamList += '<div class="card-body">'
+                    generateTeamList += '<p class="card-text">' + chunks[i] + '</p>'
+                    generateTeamList += '</div>'
+                    generateTeamList += '</div>'
+                    generateTeamList += '</div>'
+                    generateTeamList += '<br>'
+                }
+                $('#generate-card-team').append(generateTeamList);
+                return chunks;
+            }
+
+
+            function outputResult(result) {
+                return result;
+            }
+            // function teamGenerate(count, countvalue) {
+            //     var teamCount = count / countvalue;
+            //     console.log(count + ':' + countvalue);
+            // }
 
             $('#selectedTeamMembers').append(selectedTeamMembers);
             $('#team-container').append(team);
