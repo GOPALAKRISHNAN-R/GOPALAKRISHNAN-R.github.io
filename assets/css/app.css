@@ -211,41 +211,70 @@ input[type=text]:focus {
 
 }
 
-#btnGenerate{
-
-}
+#btnGenerate {}
 
 
 .callout {
-  position: fixed;
-  /*bottom: 35px;*/
-  /*right: 20px;*/
-  margin-left: 20px;
-  max-width: 300px;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    margin-left: 20px;
+    max-width: 300px;
 }
 
 .callout-header {
-  padding: 25px 15px;
-  background: #555;
-  font-size: 30px;
-  color: white;
+    padding: 25px 15px;
+    background: #555;
+    font-size: 30px;
+    color: white;
 }
 
 .callout-container {
-  padding: 15px;
-  background-color: #ccc;
-  color: black
+    padding: 15px;
+    background-color: #ccc;
+    color: black
 }
 
 .closebtn {
-  position: absolute;
-  top: 5px;
-  right: 15px;
-  color: white;
-  font-size: 30px;
-  cursor: pointer;
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
 }
 
 .closebtn:hover {
-  color: lightgrey;
+    color: lightgrey;
+}
+
+.image {
+    /*-webkit-animation: spin 4s ease;
+    -moz-animation: spin 4s ease;
+    animation: spin 4s ease;*/
+}
+
+.image-active{
+-webkit-animation: spin 4s ease;
+    -moz-animation: spin 4s ease;
+    animation: spin 4s ease;
+}
+
+@-moz-keyframes spin {
+    100% {
+        -moz-transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
 }
