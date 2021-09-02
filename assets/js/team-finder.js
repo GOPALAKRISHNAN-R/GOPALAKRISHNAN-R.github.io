@@ -14,7 +14,11 @@ var totalSelectedTeamMembers = [];
 
 var generateTeamList = '';
 
+var resultTable = '';
+
 var resultIndex = [];
+
+var resultSum = [];
 
 var result = 0;
 
@@ -74,15 +78,26 @@ $(function() {
             });
 
             function add(point, pId) {
+                // for (let i = 0; i < selectedTeamMembers.length; i++) {
+                //     if (i == pId) {
+                //         resultIndex[i] = result + point;
+
+                //     }
+                //     console.log(i + "==" + resultIndex[i]);
+                // }
+
+
                 result = result + point;
                 console.log(pId + "===" + result + "=" + result + "+" + point);
                 $("#sum" + pId).html(result);
+                $("#tablesum" + pId).html(result);
             }
 
             function sub(point, pId) {
                 result = result - 5;
                 console.log(pId + "===" + result + "=" + result + "+" + point);
                 $("#sum" + pId).html(result);
+                $("#tablesum" + pId).html(result);
             }
 
 
@@ -115,7 +130,14 @@ $(function() {
                         generateTeamList += '</div>'
                         generateTeamList += '</div>'
                         generateTeamList += '</div>'
+
+                        resultTable += '<tr><th scope="row">' + (index + 1) + '</th>'
+                        resultTable += '<td>' + value + '</td>'
+                        resultTable += '<td><span id="tablesum' + i + '"></span></td>'
+                        resultTable += '</tr>'
+
                     });
+                    $('#result-table').append(resultTable);
                     $('#generate-card-team').append(generateTeamList);
                 } else {
                     chunkArray(selectedTeamMembers, generateCount);
@@ -135,7 +157,7 @@ $(function() {
                     // console.log(i + "array " + chunks[i]);
                     generateTeamList += '<div class="col-lg-6 col-md-12 col-sm-12">'
                     generateTeamList += '<div class="card">'
-                    generateTeamList += '<h5 class="card-header">Team ' + (i + 1) + '<span id='+i+'><button type="button" class="btn btn-success" id="addBtn' + i+ '">+5</button><button type="button" class="btn btn-danger" id="subBtn' + i + '">-5</button> = <span id="sum' + i + '"></span></span></h5>'
+                    generateTeamList += '<h5 class="card-header">Team ' + (i + 1) + '<span id=' + i + '><button type="button" class="btn btn-success" id="addBtn' + i + '">+5</button><button type="button" class="btn btn-danger" id="subBtn' + i + '">-5</button> = <span id="sum' + i + '"></span></span></h5>'
 
                     generateTeamList += '<div class="card-body">'
                     generateTeamList += '<p class="card-text">' + chunks[i] + '</p>'
@@ -143,16 +165,17 @@ $(function() {
                     generateTeamList += '</div>'
                     generateTeamList += '</div>'
                     generateTeamList += '<br>'
+
+                    resultTable += '<tr><th scope="row">' + (i + 1) + '</th>'
+                    resultTable += '<td>Team ' + (i + 1) + '</td>'
+                    resultTable += '<td><span id="tablesum' + i + '"></span></td>'
+                    resultTable += '</tr>'
                 }
+
+                $('#result-table').append(resultTable);
                 $('#generate-card-team').append(generateTeamList);
                 return chunks;
             }
-
-
-            // function teamGenerate(count, countvalue) {
-            //     var teamCount = count / countvalue;
-            //     console.log(count + ':' + countvalue);
-            // }
 
             $('#selectedTeamMembers').append(selectedTeamMembers);
             $('#team-container').append(team);
