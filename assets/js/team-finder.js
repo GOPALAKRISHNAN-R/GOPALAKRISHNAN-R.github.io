@@ -133,7 +133,7 @@ $(function() {
 
                         resultTable += '<tr><th scope="row">' + (index + 1) + '</th>'
                         resultTable += '<td>' + value + '</td>'
-                        resultTable += '<td><span id="tablesum' + i + '"></span></td>'
+                        resultTable += '<td><span id="tablesum' + index + '"></span></td>'
                         resultTable += '</tr>'
 
                     });
