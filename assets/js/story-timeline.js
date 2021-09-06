@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
 
-    $.getJSON("/about/our-story/timeline.json",
+    $.getJSON("/story/timeline.json",
         function(data) {
             var timeline = '';
             $.each(data, function(key, value) {

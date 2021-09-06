@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-    $.getJSON("/about/our-team/team.json",
+    $.getJSON("/team/team.json",
         function(data) {
             var team = '';
             $.each(data, function(key, value) {
@@ -18,7 +18,7 @@ $(document).ready(function() {
             $('#team-container').append(team);
         });
 
-    $.getJSON("/about/our-team/alumni.json",
+    $.getJSON("/team/alumni.json",
         function(data) {
             var alumni = '';
             $.each(data, function(key, value) {

@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
 
-    $.getJSON("/careers/join-us/current-openings.json",
+    $.getJSON("/careers/current-openings.json",
         function(data) {
             var currentOpening = '';
             $.each(data, function(key, value) {
