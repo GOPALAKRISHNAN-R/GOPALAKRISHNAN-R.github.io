@@ -1,53 +1,3 @@
-/* masthead for about */
-
-header.mastheadFor {
-    padding-top: 10.5rem;
-    padding-bottom: 6rem;
-    text-align: center;
-    color: #fff;
-
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center center;
-    background-size: cover;
-}
-
-header.mastheadFor .mastheadFor-subheading {
-    font-size: 1.5rem;
-    font-style: italic;
-    line-height: 1.5rem;
-    margin-bottom: 25px;
-    font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-}
-
-header.mastheadFor .mastheadFor-heading {
-    font-size: 3.25rem;
-    font-weight: 700;
-    line-height: 3.25rem;
-    margin-bottom: 2rem;
-    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-}
-
-@media (min-width: 768px) {
-    header.mastheadFor {
-        padding-top: 17rem;
-        padding-bottom: 12.5rem;
-    }
-
-    header.mastheadFor .mastheadFor-subheading {
-        font-size: 2.25rem;
-        font-style: italic;
-        line-height: 2.25rem;
-        margin-bottom: 2rem;
-    }
-
-    header.mastheadFor .mastheadFor-heading {
-        font-size: 2.5rem;
-        font-weight: 700;
-        line-height: 4.5rem;
-        margin-bottom: 4rem;
-    }
-}
 
 
 
@@ -254,8 +204,8 @@ input[type=text]:focus {
     animation: spin 4s ease;*/
 }
 
-.image-active{
--webkit-animation: spin 4s ease;
+.image-active {
+    -webkit-animation: spin 4s ease;
     -moz-animation: spin 4s ease;
     animation: spin 4s ease;
 }
@@ -277,4 +227,19 @@ input[type=text]:focus {
         -webkit-transform: rotate(360deg);
         transform: rotate(360deg);
     }
+}
+
+/**/
+.text-black-75{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #767676;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.text-color-dark{
+    color: #003b5c;
+}
+.text-color-cyan{
+    color: #00a499;
 }

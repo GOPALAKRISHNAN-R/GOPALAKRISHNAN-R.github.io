@@ -5,8 +5,6 @@ var team = '',
     generateTeamList = '',
     resultTable = '';
 
-var score = 0;
-
 $(function() {
 
     $.getJSON("/office-activity/team.json",
@@ -50,9 +48,12 @@ function chunkArray(arr, n) {
         generateTeamList += '<div class="col-lg-6 col-md-12 col-sm-12">'
         generateTeamList += '<div class="card">'
         generateTeamList += '<h5 class="card-header">Team ' + alphabet[i] + '<span id=' + i + '>'
-        generateTeamList += '<button type="button" class="btn btn-success" id="addBtn" onclick="add({id:' + i + '})">+5</button>'
-        generateTeamList += '<button type="button" class="btn btn-danger" id="subBtn" onclick="sub({id:' + i + '})">-5</button> ='
-        generateTeamList += '<span id="sum' + i + '"></span></span></h5>'
+        generateTeamList += '<button type="button" class="btn btn-success" id="addBtn" onclick="addScore(' + i + ', 5)">+5</button>'
+        generateTeamList += '<button type="button" class="btn btn-danger" id="subBtn" onclick="addScore(' + i + ', -5)">-5</button>'
+        generateTeamList += '<button type="button" class="btn btn-success" id="addBtn" onclick="addScore(' + i + ', 10)">+10</button>'
+        generateTeamList += '<button type="button" class="btn btn-danger" id="subBtn" onclick="addScore(' + i + ', -10)">-10</button> ='
+
+        generateTeamList += '<span id="sum' + i + '">0</span></span></h5>'
 
         generateTeamList += '<div class="card-body">'
         generateTeamList += '<p class="card-text">' + chunks[i] + '</p>'
@@ -60,15 +61,17 @@ function chunkArray(arr, n) {
         generateTeamList += '</div>'
         generateTeamList += '</div>'
         generateTeamList += '<br>'
-
         resultTable += '<tr><th scope="row">' + (i + 1) + '</th>'
         resultTable += '<td>Team ' + alphabet[i] + '</td>'
         resultTable += '<td><span id="tablesum' + i + '"></span></td>'
         resultTable += '</tr>'
 
     }
+
     $('#result-table').append(resultTable);
     $('#generate-card-team').append(generateTeamList);
+
+
     return chunks;
 }
 
@@ -85,26 +88,16 @@ $("#hideScoreBoard").click(function() {
     $("#viewScoreBoardDetails").hide();
 });
 
+function addScore(index, point) {
+    try {
+        var scoreSpan = $("#sum" + index);
+        var currentScore = parseInt(scoreSpan.text()) + point;
+        var tableSpan = $("#tablesum" + index);
 
-function add(object) {
-    var allUsers = [];
-    for (var key in object) {
-        allUsers.push(object[key]);
+        $(scoreSpan).html(currentScore);
+        $(tableSpan).html(currentScore);
 
+    } catch (err) {
+        alert('Error occured: ' + err.message);
     }
-    score+=5;
-    $("#sum" + object.id).html(score);
-    $("#tablesum" + object.id).html(score);
-}
-
-
-function sub(object) {
-    var allUsers = [];
-    for (var key in object) {
-        allUsers.push(object[key]);
-
-    }
-    score-=5;
-    $("#sum" + object.id).html(score);
-    $("#tablesum" + object.id).html(score);
 }
