@@ -11,8 +11,8 @@ $(document).ready(function() {
                 timeline += '</div>'
                 timeline += '<div class="timeline-panel">'
                 timeline += '<div class="timeline-heading">'
-                timeline += '<h6>' + value.timeline_heading + '</h6><br>'
-                timeline += '<h4 class="subheading">' + value.subheading + '</h4>'
+                timeline += '<h6 class="text-color-dark">' + value.timeline_heading + '</h6><br>'
+                timeline += '<h4 class="text-black-75">' + value.subheading + '</h4>'
                 timeline += '</div>'
                 timeline += '<div class="timeline-body">'
                 if (value.visit_link != "") {

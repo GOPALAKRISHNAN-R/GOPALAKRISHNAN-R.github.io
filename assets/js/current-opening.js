@@ -8,7 +8,7 @@ $(document).ready(function() {
                 currentOpening += '<div class="col-lg-4 col-md-6 col-sm-12">'
                 currentOpening += '  <div class="mt-5 shadow p-3 mb-5 bg-white rounded zoom mr-3 text-center">'
                 currentOpening += '<span class="fa-stack fa-4x">'
-                currentOpening += '<i class="fas fa-circle fa-stack-2x text-primary"></i>'
+                currentOpening += '<i class="fas fa-circle fa-stack-2x text-color-cyan"></i>'
                 if (value.position_name == "JAVA DEVELOPER") {
                     currentOpening += '<i class="fab fa-java fa-stack-1x fa-inverse"></i>'
                 } else if (value.position_name == "VALIDATION ENGINEER") {
@@ -19,12 +19,12 @@ $(document).ready(function() {
                     currentOpening += '<i class="fas fa-bullhorn fa-stack-1x fa-inverse"></i>'
                 }
                 currentOpening += '</span><br><br>'
-                currentOpening += '<h4 class="text-primary text-center">' + value.position_name + '</h4>'
+                currentOpening += '<h4 class="text-color-dark text-center">' + value.position_name + '</h4>'
                 currentOpening += '<br>'
-                currentOpening += '<p class="text-muted"><b>' + value.headquarters + ' </b>' + value.headquarters_name + '</p>'
-                currentOpening += '<p class="text-muted"><b>' + value.employment + ' </b>' + value.employment_type + '</p>'
+                currentOpening += '<p class="text-black-75"><b>' + value.headquarters + ' </b>' + value.headquarters_name + '</p>'
+                currentOpening += '<p class="text-black-75"><b>' + value.employment + ' </b>' + value.employment_type + '</p>'
                 currentOpening += '<br>'
-                currentOpening += '<p class="text-center"><a class="btn btn-primary btn-md js-scroll-trigger" href="' + value.apply_link + '">APPLY</a></p>'
+                currentOpening += '<p class="text-center"><a class="btn btn-md btn-cyan text-uppercase" href="' + value.apply_link + '">APPLY</a></p>'
                 currentOpening += '</div>'
                 currentOpening += '</div>'
             });
