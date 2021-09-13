@@ -136,7 +136,7 @@ container.append("text")
     .text("SPIN")
     .attr("onclick","spin()")
     .attr("id","spin")
-    .style({ "font-weight": "bold", "font-size": "30px" });
+    .style({ "font-weight": "bold", "font-size": "30px", "cursor": "pointer" });
 
 function rotTween(to) {
     var i = d3.interpolate(oldrotation % 360, rotation);
