@@ -31,14 +31,18 @@ $(function() {
 $("#btnGenerate").click(function() {
     // var generateCount = parseInt($("#generateTeam option").filter(":selected").text(), 10);
     var generateCount = $('#generateTeam').val();
-    if (generateCount > 0) {
-        selectedTeamMembers = $('input[type=checkbox]:checked').map(function(_, el) {
-            return $(el).val();
-        }).get();
+    selectedTeamMembers = $('input[type=checkbox]:checked').map(function(_, el) {
+        return $(el).val();
+    }).get();
+    // console.log(selectedTeamMembers)
+    if (generateCount > 0 && selectedTeamMembers.length !== 0) {
         chunkArray(selectedTeamMembers, generateCount);
-    }
-    else{
-        alert("Please enter the number of teams!!")
+    } else {
+        if (selectedTeamMembers.length === 0) {
+            alert("Please select team participants!!")
+        } else {
+            alert("Please enter the valid number of teams!!")
+        }
     }
 });
 
@@ -58,11 +62,18 @@ function chunkArray(arr, n) {
         generateTeamList += '<button type="button" class="btn btn-danger" id="subBtn" onclick="addScore(' + i + ', -5)">-5</button>'
         generateTeamList += '<button type="button" class="btn btn-success" id="addBtn" onclick="addScore(' + i + ', 10)">+10</button>'
         generateTeamList += '<button type="button" class="btn btn-danger" id="subBtn" onclick="addScore(' + i + ', -10)">-10</button> ='
-
         generateTeamList += '<span id="sum' + i + '">0</span></span></h5>'
-
         generateTeamList += '<div class="card-body">'
-        generateTeamList += '<p class="card-text">' + chunks[i] + '</p>'
+        var teamData = chunks[i];
+        $.each(teamData, function(key, value) {
+            console.log(key + "==" + value)
+            if (key > 0) {
+                generateTeamList += '<p class="card-text">' + value + '</p>'
+            } else {
+                generateTeamList += '<p class="card-text">' + value + '<span class="btn btn-sm btn-danger float-right">LEADER</span></p>'
+            }
+
+        });
         generateTeamList += '</div>'
         generateTeamList += '</div>'
         generateTeamList += '</div>'
