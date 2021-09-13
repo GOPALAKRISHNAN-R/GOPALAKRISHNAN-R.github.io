@@ -31,11 +31,15 @@ $(function() {
 $("#btnGenerate").click(function() {
     // var generateCount = parseInt($("#generateTeam option").filter(":selected").text(), 10);
     var generateCount = $('#generateTeam').val();
-
-    selectedTeamMembers = $('input[type=checkbox]:checked').map(function(_, el) {
-        return $(el).val();
-    }).get();
-    chunkArray(selectedTeamMembers, generateCount);
+    if (generateCount > 0) {
+        selectedTeamMembers = $('input[type=checkbox]:checked').map(function(_, el) {
+            return $(el).val();
+        }).get();
+        chunkArray(selectedTeamMembers, generateCount);
+    }
+    else{
+        alert("Please enter the number of teams!!")
+    }
 });
 
 function chunkArray(arr, n) {

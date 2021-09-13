@@ -65,7 +65,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12">
-                    <h3 class="text-primary text-center text-uppercase">Welcome to Teams Finder</h3>
+                    <h3 class="text-color-dark text-center text-uppercase">
+                        Welcome to Teams Finder
+                    </h3>
                 </div>
             </div>
         </div>
@@ -76,18 +78,11 @@
             <div class="row" id="team-container">
             </div>
             <div class="row mt-5">
-                <!--  <div class="col-lg-2 col-md-12 col-sm-12 text-center mt-3">
-                    <button type="submit" class="btn btn-primary" id="selectTeam">Select</button>
-                </div>
-                <div class="col-lg-4 col-md-12 col-sm-12">
-                    <select multiple class="form-control" id="selected-team">
-                    </select>
-                </div> -->
                 <div class="col-lg-8 col-md-12 col-sm-12">
                     <input type="number" class="form-control" id="generateTeam">
                 </div>
                 <div class="col-lg-4 col-md-12 col-sm-12">
-                    <button type="button" id="btnGenerate" class="btn btn-primary">Generate Teams</button>
+                    <button type="button" id="btnGenerate" class="btn btn-md btn-cyan text-uppercase">Generate Teams</button>
                 </div>
             </div>
         </div>
@@ -97,9 +92,15 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12">
-                    <h4 class="text-center">Teams List</h4>
-                    <p class="text-center"><button type="button" id="viewScoreBoard" class="btn btn-primary">View Scoreboard</button>
-                        <button type="button" id="hideScoreBoard" class="btn btn-primary">Hide Scoreboard</button></p>
+                    <h3 class="text-color-dark text-center text-uppercase">Teams List</h3>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <p class="text-center">
+                        <button type="button" id="viewScoreBoard" class="btn btn-md btn-cyan text-uppercase">View Scoreboard</button>
+                        <button type="button" id="hideScoreBoard" class="btn btn-md text-uppercase btn-danger">Hide Scoreboard</button>
+                    </p>
                 </div>
             </div>
             <hr>
@@ -119,22 +120,6 @@
                 </div>
             </div>
             <div class="row mt-3" id="generate-card-team">
-                <!-- <div class="col-lg-6 col-md-12 col-sm-12">
-                    <div class="card">
-                        <h5 class="card-header">Team A</h5>
-                        <div class="card-body">
-                            <p class="card-text">Vidya Ravichandran</p>
-                        </div>
-                    </div>
-                </div> -->
-                <!-- <div class="col-lg-6 col-md-12 col-sm-12">
-                    <div class="card">
-                        <h5 class="card-header">Team B</h5>
-                        <div class="card-body">
-                            <p class="card-text">Naveen Krishnamurthy</p>
-                        </div>
-                    </div>
-                </div> -->
             </div>
         </div>
     </section>
@@ -150,7 +135,7 @@
             </div>
         </div>
     </section>
-     <!-- Footer-->
+    <!-- Footer-->
     <footer class="footer py-4 bg-dark">
         <div class="container">
             <div class="row align-items-left">
@@ -198,4 +183,5 @@
     <script src="/assets/js/app.js"></script>
     <script src="/assets/js/team-finder.js"></script>
 </body>
+
 </html>
