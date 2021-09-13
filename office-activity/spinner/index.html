@@ -60,25 +60,16 @@
         </div>
     </nav>
     <br />
-    <!--  spinner -->
-    <section class="page-section bg-light">
+    <section class="page-section">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12">
-                    <div class="text-center">
-                        <img class="image" src="\assets\img\pie.png">
-                    </div>
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div id="chart"></div>
                 </div>
-                <div class="col-lg-12 col-md-12 col-sm-12">
-                    <div class="text-center">
-                        <button class="btn btn-info" id="spin">spinner</button>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-12 col-md-12 col-sm-12" id="winner-result">
-                    </div>
+                <div class="col-lg-6 col-md-12 col-sm-12" id="winner-result">
                 </div>
             </div>
+        </div>
     </section>
     <!-- Map -->
     <section class="page-section">
@@ -136,6 +127,7 @@
     <script src="/assets/js/lib/aos.js"></script>
     <!-- Core theme JS-->
     <script src="/assets/js/scripts.js"></script>
+    <script src="/assets/js/lib/d3js.js" charset="utf-8"></script>
     <script src="/assets/js/app.js"></script>
     <script src="/assets/js/team-spinner.js"></script>
 </body>
