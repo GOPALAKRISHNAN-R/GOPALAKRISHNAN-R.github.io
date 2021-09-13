@@ -60,7 +60,7 @@
     /*margin-bottom: 70px;*/
     width: 0%;
     height: 4px;
-    background-color: #377DFF;
+    background-color: #003b5c;
     position: fixed;
     left: 0px;
     top: 0%;
@@ -79,12 +79,12 @@
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: #377DFF;
+    background: #003b5c;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: #377DFF;
+    background: #003b5c;
 }
 
 /*Clip masthead*/

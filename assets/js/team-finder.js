@@ -18,8 +18,8 @@ $(function() {
                 if (value.active) {
                     team += '<div class="col-lg-3 col-md-6 col-sm-12">'
                     team += '<div class="form-check form-check-inline">'
-                    team += '<input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="' + value.name + '">'
-                    team += '<label class="form-check-label" for="inlineCheckbox1">' + value.name + '</label>'
+                    team += '<input class="form-check-input" type="checkbox" id="inlineCheckbox' + value.teamId + '" value="' + value.name + '">'
+                    team += '<label class="form-check-label" for="inlineCheckbox' + value.teamId + '">' + value.name + '</label>'
                     team += '</div>'
                     team += '</div>'
                 }
@@ -29,7 +29,9 @@ $(function() {
 });
 
 $("#btnGenerate").click(function() {
-    var generateCount = parseInt($("#generateTeam option").filter(":selected").text(), 10);
+    // var generateCount = parseInt($("#generateTeam option").filter(":selected").text(), 10);
+    var generateCount = $('#generateTeam').val();
+
     selectedTeamMembers = $('input[type=checkbox]:checked').map(function(_, el) {
         return $(el).val();
     }).get();
