@@ -49,6 +49,14 @@
                         <span> Basic Information</span>
                     </div>
                     <div class="mt-2">
+                        <button class="btn btn-dark px-3 mb-2 mb-lg-0" data-bs-toggle="modal" data-bs-target="#skillsModal">
+                            <span class="d-flex align-items-center">
+                                <i class="bi bi-plus-circle"></i>
+                            </span>
+                        </button>
+                        <span> Skills</span>
+                    </div>
+                    <div class="mt-2">
                         <button class="btn btn-dark px-3 mb-2 mb-lg-0" data-bs-toggle="modal" data-bs-target="#educationModal">
                             <span class="d-flex align-items-center">
                                 <i class="bi bi-plus-circle"></i>
@@ -112,6 +120,32 @@
                     <p>Course Name:</p>
                     <p>Institution Name:</p>
                     <p>Completion Year:</p>
+                </div>
+            </div>
+            <div class="row gx-5 mt-5">
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <h4>Primary Skills</h4>
+                    <hr>
+                </div>
+                <div class="col-lg-8 mt-5 mb-5 mb-lg-0">
+                    <p>Skill #1:</p>
+                    <p>Skill #2:</p>
+                    <p>Skill #3:</p>
+                    <p>Skill #4:</p>
+                    <p>Skill #5:</p>
+                </div>
+            </div>
+            <div class="row gx-5 mt-5">
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <h4>Secondary Skills</h4>
+                    <hr>
+                </div>
+                <div class="col-lg-8 mt-5 mb-5 mb-lg-0">
+                    <p>Skill #1:</p>
+                    <p>Skill #2:</p>
+                    <p>Skill #3:</p>
+                    <p>Skill #4:</p>
+                    <p>Skill #5:</p>
                 </div>
             </div>
             <div class="row gx-5 mt-5">
@@ -180,8 +214,20 @@
                 <div class="modal-body border-0 p-4">
                     <form>
                         <div class="form-floating mb-3">
-                            <input class="form-control" id="disabledInput" type="text" placeholder="John" disabled>
-                            <label for="disabledTextInput" class="form-label">John</label>
+                            <input class="form-control" id="name" type="text" placeholder="Enter your name">
+                            <label for="name" class="form-label">Candidate Name</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input class="form-control" id="email" type="email" placeholder="Enter your name">
+                            <label for="email" class="form-label">name@example.com</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input class="form-control" id="contactNumber" type="tel" placeholder="Enter your name">
+                            <label for="contactNumber" class="form-label">Contact Number</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input class="form-control" id="whatsappNumber" type="tel" placeholder="Enter your name">
+                            <label for="whatsappNumber" class="form-label">Whatsapp Number</label>
                         </div>
                         <div class="form-floating mb-3">
                             <input class="form-control" type="Date" placeholder="dob">
@@ -202,7 +248,7 @@
                                 <label class="form-check-label" for="inlineCheckbox3">Other</label>
                             </div>
                         </div>
-                        <div class="form-floating mb-3">
+                        <!-- <div class="form-floating mb-3">
                             <p>Experience</p>
                             <div class="form-check form-check-inline">
                                 <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="Fresher">
@@ -212,11 +258,11 @@
                                 <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="Experienced">
                                 <label class="form-check-label" for="inlineCheckbox2">Experienced</label>
                             </div>
-                        </div>
-                        <div class="form-floating mb-3">
+                        </div> -->
+                        <!--  <div class="form-floating mb-3">
                             <input class="form-control" type="number" placeholder="dob">
                             <label for="form-control">Notice Period</label>
-                        </div>
+                        </div> -->
                         <div class="d-grid"><button class="btn btn-primary rounded-pill btn-lg disabled" id="submitButton" type="submit">Add</button></div>
                     </form>
                 </div>
@@ -262,19 +308,87 @@
                 <div class="modal-body border-0 p-4">
                     <form>
                         <div class="form-floating mb-3">
-                            <input class="form-control" id="qualification" type="text" placeholder="qualification">
-                            <label for="highestqualification" class="form-label">Course Name</label>
+                            <input class="form-control" id="courseName" type="text" placeholder="qualification">
+                            <label for="courseName" class="form-label">Course Name</label>
                         </div>
                         <div class="form-floating mb-3">
-                            <input class="form-control" id="qualification" type="text" placeholder="qualification">
-                            <label for="highestqualification" class="form-label">Institution Name</label>
+                            <input class="form-control" id="institutionName" type="text" placeholder="qualification">
+                            <label for="institutionName" class="form-label">Institution Name</label>
                         </div>
                         <div class="form-floating mb-3">
-                            <input class="form-control" type="Date" placeholder="dob">
-                            <label for="form-control">Completion Year</label>
+                            <input class="form-control" id="completionYear" type="Date" placeholder="dob">
+                            <label for="completionYear">Completion Year</label>
                         </div>
                         <div class="d-grid"><button class="btn btn-primary rounded-pill btn-lg disabled" id="submitButton" type="submit">Add</button></div>
                     </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Skills -->
+    <!-- Modal -->
+    <div class="modal fade" id="skillsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">SKILLS</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row mb-3">
+                            <p>Primary Skill</p>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <input class="form-control" id="skill1" type="text" placeholder="Skill #1">
+                            </div>
+                            <div class="col-md-6">
+                                <input class="form-control" id="skill2" type="text" placeholder="Skill #2">
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <input class="form-control" id="skill3" type="text" placeholder="Skill #3">
+                            </div>
+                            <div class="col-md-6">
+                                <input class="form-control" id="skill4" type="text" placeholder="Skill #4">
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <input class="form-control" id="skill5" type="text" placeholder="Skill #5">
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <p>Secondary Skill</p>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <input class="form-control" id="skill6" type="text" placeholder="Skill #1">
+                            </div>
+                            <div class="col-md-6">
+                                <input class="form-control" id="skill7" type="text" placeholder="Skill #2">
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <input class="form-control" id="skill8" type="text" placeholder="Skill #3">
+                            </div>
+                            <div class="col-md-6">
+                                <input class="form-control" id="skill9" type="text" placeholder="Skill #4">
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <input class="form-control" id="skill10" type="text" placeholder="Skill #5">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -290,19 +404,19 @@
                 <div class="modal-body border-0 p-4">
                     <form>
                         <div class="form-floating mb-3">
-                            <input class="form-control" id="qualification" type="text" placeholder="qualification">
-                            <label for="highestqualification" class="form-label">Company Name</label>
+                            <input class="form-control" id="companyName" type="text" placeholder="qualification">
+                            <label for="companyName" class="form-label">Company Name</label>
                         </div>
                         <div class="form-floating mb-3">
-                            <input class="form-control" id="qualification" type="text" placeholder="qualification">
-                            <label for="highestqualification" class="form-label">Designation</label>
+                            <input class="form-control" id="designation" type="text" placeholder="qualification">
+                            <label for="designation" class="form-label">Designation</label>
                         </div>
                         <div class="form-floating mb-3">
-                            <input class="form-control" type="number" placeholder="dob">
-                            <label for="form-control">Years of experience</label>
+                            <input class="form-control" id="yearOfExperience" type="number" placeholder="dob">
+                            <label for="yearOfExperience">Years of experience</label>
                         </div>
                         <div class="form-floating mb-5">
-                            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                            <textarea class="form-control" placeholder="Leave a comment here" id="workSummary"></textarea>
                             <label for="floatingTextarea">Work Summary</label>
                         </div>
                         <div class="d-grid"><button class="btn btn-primary rounded-pill btn-lg disabled" id="submitButton" type="submit">Add</button></div>
