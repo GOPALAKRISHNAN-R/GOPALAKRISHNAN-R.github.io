@@ -1,70 +1,77 @@
-.bi-2x {
-    font-size: 2em;
-}
+/* @media (min-width: 992px) {
+    .col-lg {
+        flex: 1 0 0%;
+    }
 
-.border-left-primary {
-    border-left: .25rem solid #4e73df!important;
-}
+ }
 
-.border-left-success {
-    border-left: .25rem solid #1cc88a!important;
-}
+*/
+ .bi-2x {
+     font-size: 2em;
+ }
 
-.border-left-warning {
-    border-left: .25rem solid #f6c23e!important;
-}
+ .border-left-primary {
+     border-left: .25rem solid #4e73df !important;
+ }
 
-.reset-this {
-  all: initial;
-}
+ .border-left-success {
+     border-left: .25rem solid #1cc88a !important;
+ }
 
-.redo-fieldset {
-  border: 1px solid #ced4da;
-  padding: 0 1.4em 1.4em 1.4em !important;
-}
+ .border-left-warning {
+     border-left: .25rem solid #f6c23e !important;
+ }
 
-.redo-legend {
-  color: black;
-}
+ .reset-this {
+     all: initial;
+ }
 
-/*
+ .redo-fieldset {
+     border: 1px solid #ced4da;
+     padding: 0 1.4em 1.4em 1.4em !important;
+ }
+
+ .redo-legend {
+     color: black;
+ }
+
+ /*
     Error page CSS
 */
 
-.page_404 {
-    padding: 40px 0;
-    background: #fff;
-    font-family: 'Arvo', serif;
-}
+ .page_404 {
+     padding: 40px 0;
+     background: #fff;
+     font-family: 'Arvo', serif;
+ }
 
-.page_404 img {
-    width: 100%;
-}
+ .page_404 img {
+     width: 100%;
+ }
 
-.four_zero_four_bg {
-    background-image: url("/assets/img/404/error.gif");
-    height: 400px;
-    background-position: center;
-}
+ .four_zero_four_bg {
+     background-image: url("/assets/img/404/error.gif");
+     height: 400px;
+     background-position: center;
+ }
 
 
-.four_zero_four_bg h1 {
-    font-size: 80px;
-}
+ .four_zero_four_bg h1 {
+     font-size: 80px;
+ }
 
-.four_zero_four_bg h3 {
-    font-size: 80px;
-}
+ .four_zero_four_bg h3 {
+     font-size: 80px;
+ }
 
-.link_404 {
-    color: #fff !important;
-    padding: 10px 20px;
-    background: #39ac31;
-    margin: 20px 0;
-    display: inline-block;
-}
+ .link_404 {
+     color: #fff !important;
+     padding: 10px 20px;
+     background: #39ac31;
+     margin: 20px 0;
+     display: inline-block;
+ }
 
-.contant_box_404 {
-    margin-top: -50px;
-}
-
+ .contant_box_404 {
+     margin-top: -50px;
+ }
