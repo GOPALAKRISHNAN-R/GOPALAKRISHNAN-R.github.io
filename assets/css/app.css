@@ -1,77 +1,170 @@
-/* @media (min-width: 992px) {
-    .col-lg {
-        flex: 1 0 0%;
-    }
-
- }
-
+/*
+    Customized CSS for APP
+    Developed on 12/Oct/2021
 */
- .bi-2x {
-     font-size: 2em;
- }
 
- .border-left-primary {
-     border-left: .25rem solid #4e73df !important;
- }
 
- .border-left-success {
-     border-left: .25rem solid #1cc88a !important;
- }
+/*
+    Damion font added
+*/
+@font-face {
+    font-family: damionFont;
+    src: url(Damion-Regular.ttf);
+}
 
- .border-left-warning {
-     border-left: .25rem solid #f6c23e !important;
- }
+/*
+    Ephesis font added
+*/
+@font-face {
+    font-family: ephesisFont;
+    src: url(Ephesis-Regular.ttf);
+}
 
- .reset-this {
-     all: initial;
- }
+/*
+    Page title
+*/
+.page-title{
+    font-family: ephesisFont,cursive;
+    /*opacity: 0.1;*/
+    font-weight: normal;
+    font-size: 2rem;
 
- .redo-fieldset {
-     border: 1px solid #ced4da;
-     padding: 0 1.4em 1.4em 1.4em !important;
- }
+}
 
- .redo-legend {
-     color: black;
- }
+/* zoom */
 
- /*
+.zoom {
+    transition: transform .2s;
+    /* Animation */
+    margin: 0 auto;
+}
+
+.zoom:hover {
+    transform: scale(1.1);
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+
+/* scroll indicator */
+.scroll-progress-bar {
+    /*margin-bottom: 70px;*/
+    width: 0%;
+    height: 4px;
+    background-color: #003b5c;
+    position: fixed;
+    left: 0px;
+    top: 0%;
+}
+
+/* scroll bar */
+/* width */
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #003b5c;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #003b5c;
+}
+
+/*
     Error page CSS
 */
 
- .page_404 {
-     padding: 40px 0;
-     background: #fff;
-     font-family: 'Arvo', serif;
- }
+.page_404 {
+    padding: 40px 0;
+    background: #fff;
+    font-family: 'Arvo', serif;
+}
 
- .page_404 img {
-     width: 100%;
- }
+.page_404 img {
+    width: 100%;
+}
 
- .four_zero_four_bg {
-     background-image: url("/assets/img/404/error.gif");
-     height: 400px;
-     background-position: center;
- }
+.four_zero_four_bg {
+
+    background-image: url("../img/404/error.gif");
+    height: 400px;
+    background-position: center;
+}
 
 
- .four_zero_four_bg h1 {
-     font-size: 80px;
- }
+.four_zero_four_bg h1 {
+    font-size: 80px;
+}
 
- .four_zero_four_bg h3 {
-     font-size: 80px;
- }
+.four_zero_four_bg h3 {
+    font-size: 80px;
+}
 
- .link_404 {
-     color: #fff !important;
-     padding: 10px 20px;
-     background: #39ac31;
-     margin: 20px 0;
-     display: inline-block;
- }
+.link_404 {
+    color: #fff !important;
+    padding: 10px 20px;
+    background: #39ac31;
+    margin: 20px 0;
+    display: inline-block;
+}
 
- .contant_box_404 {
-     margin-top: -50px;
- }
+.contant_box_404 {
+    margin-top: -50px;
+}
+
+
+button {
+ --color: #87CEEB;
+ font-family: inherit;
+ display: inline-block;
+ width: 8em;
+ height: 2.6em;
+ line-height: 2.5em;
+ margin: 20px;
+ position: relative;
+ overflow: hidden;
+ border: 2px solid var(--color);
+ transition: color .5s;
+ z-index: 1;
+ font-size: 17px;
+ border-radius: 6px;
+ font-weight: 500;
+ color: var(--color);
+}
+
+button:before {
+ content: "";
+ position: absolute;
+ z-index: -1;
+ background: var(--color);
+ height: 150px;
+ width: 200px;
+ border-radius: 50%;
+}
+
+button:hover {
+ color: #fff;
+}
+
+button:before {
+ top: 100%;
+ left: 100%;
+ transition: all .7s;
+}
+
+button:hover:before {
+ top: -30px;
+ left: -30px;
+}
+
+button:active:before {
+ background: #3a0ca3;
+ transition: background 0s;
+}
