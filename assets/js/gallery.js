@@ -7,7 +7,7 @@ $(document).ready(function() {
 
             $.each(data, function(key, value) {
 
- 			    gallery += '<div class="col-lg-4 col-md-6 col-sm-6">'
+ 			    gallery += '<div class="col-lg-4 col-md-6 col-sm-6 mb-3">'
                 // gallery += '<a class="portfolio-box" href="' + value.fullSize + '">'
                 gallery += '<img class="img-fluid" src="' + value.thumbnails + '"/>'
                 // gallery += '</a>'

@@ -20,20 +20,11 @@ $(document).ready(function() {
                 team += '</a>'
                 team += '<h6>' + value.designation + '</h6>'
                 team += '<div class="mt-5">' + value.intro + '</div>'
-                // team += '<a class="btn btn-social" target="_blank" href="'+value.linkedInUrl+'">'
-                // team += '<i class="fab fa-linkedin-in"></i>'
-                // team += '</a>'
+                team += '<a class="btn btn-social" target="_blank" href="'+value.linkedInUrl+'">'
+                team += '<i class="fab fa-linkedin-in"></i>'
+                team += '</a>'
                 team += '</div>'
 
-                if (value.id == 1) {
-                    vidyaRavichandran += '<img class="img-fluid" src="' + value.image + '"/>'
-                }
-                if (value.id == 2) {
-                    naveenKrishnamoorthy += '<img class="img-fluid" src="' + value.image + '"/>'
-                }
-                if (value.id == 3) {
-                    giriPrabhuSeshadri += '<img class="img-fluid" src="' + value.image + '"/>'
-                }
 
 
             });

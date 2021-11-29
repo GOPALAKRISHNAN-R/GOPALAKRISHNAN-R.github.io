@@ -9,7 +9,7 @@ $(document).ready(function() {
 
                 media += '<div class="col-lg-12 col-md-12 col-sm-12 mb-3">'
                 // media += '<a class="portfolio-box" href="' + value.fullSize + '">'
-                media += '<img class="img-thumbnails" src="' + value.image + '"/>'
+                media += '<img class="img-fluid" src="' + value.image + '"/>'
                 // media += '</a>'
                 media += '</div>'
 
@@ -26,7 +26,7 @@ $(document).ready(function() {
             $.each(data, function(key, value) {
 
                 featured += '<div class="col-lg-6 col-md-6 col-sm-6">'
-                featured += '<img class="img-thumbnails" src="' + value.image + '"/>'
+                featured += '<img class="img-fluid" src="' + value.image + '"/>'
                 featured += '</div>'
 
             });
