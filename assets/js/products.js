@@ -26,9 +26,9 @@ $(document).ready(function() {
             });
 
             //tornnado
-            if (key == "Tornnado") {
+            // if (key == "Tornnado") {
 
-            }
+            // }
 
             $('#products-list').append(indexProductList);
         });
