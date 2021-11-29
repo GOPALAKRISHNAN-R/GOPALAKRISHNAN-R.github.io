@@ -8,10 +8,15 @@ $(document).ready(function() {
             var about = ''
 
             $.each(data, function(key, value) {
-
-                about += '<p class="mb-4">'
-                about += value.content
-                about += '</p>'
+                if (value.id === 3) {
+                    about += '<h5>'
+                    about += value.content
+                    about += '</h5>'
+                } else {
+                    about += '<p class="mb-4">'
+                    about += value.content
+                    about += '</p>'
+                }
             });
 
             $('#about-us').append(about);
