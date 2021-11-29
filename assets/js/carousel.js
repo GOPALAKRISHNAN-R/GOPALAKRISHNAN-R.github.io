@@ -27,7 +27,7 @@ $(document).ready(function() {
             carousel += '<span class="carousel-control-prev-icon" aria-hidden="true"></span>'
             carousel += '<span class="sr-only">Previous</span>'
             carousel += '</a>'
-            carousel += ' <a class = "carousel-control-next" href = "#carouselExampleControls" role = "button" data - slide = "next" >'
+            carousel += '<a class = "carousel-control-next" href = "#carouselExampleControls" role = "button" data-slide = "next" >'
             carousel += '<span class="carousel-control-next-icon" aria-hidden="true"></span>'
             carousel += '<span class = "sr-only" > Next < /span>'
             carousel += '</a>'
