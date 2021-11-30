@@ -5,7 +5,9 @@ $(document).ready(function() {
 
 
     const FORM_NAME = 'CONTACT';
-    var form = ''
+
+    var form = '',
+        desc = 'For customization write us here';
 
     form += '<div class="row">'
     form += '<div class="col-lg-12">'
@@ -13,16 +15,25 @@ $(document).ready(function() {
     form += FORM_NAME
     form += '</h4>'
     form += '<hr class="divider">'
+    form += '<p class="text-muted text-center">'
+    form += desc
+    form += '</p>'
     form += '</div>'
     form += '</div>'
 
-    form += '<div class="row">'
+    form += '<div class="row mt-3">'
     form += '<div class="col-lg-12" id="form">'
 
     form += '<form onsubmit="return sendEmail(this);">'
     form += '<div class="form-group">'
     form += '<label for="emailInput">Email address</label>'
-    form += '<input type="email" name="emailInput" class="form-control" id="emailInput" aria-describedby="emailHelp" placeholder="Enter email" required>'
+    form += '<input type="email" name="emailInput" class="form-control" id="emailInput" aria-describedby="emailHelp" placeholder="Enter your email" required>'
+    form += '</div>'
+    form += '<div class="form-group">'
+    form += '<label for="phoneInput">'
+    form += 'Mobile Number'
+    form += '</label>'
+    form += '<input type="text" name="cell" class="form-control" id="phoneInput" placeholder="Enter your contact number" required>'
     form += '</div>'
     form += '<div class="form-group">'
     form += '<label for="subjectInput">'
@@ -37,7 +48,7 @@ $(document).ready(function() {
     form += '<textarea class="form-control" name="message" id="messageTextArea" rows="3">'
     form += '</textarea>'
     form += '</div>'
-    form += '<button type="submit" name="submit" value="Submit">Send</button>'
+    form += '<button type="submit" name="submit" value="Submit">Submit</button>'
     form += '</form>'
 
     form += '</div>'
@@ -48,6 +59,6 @@ $(document).ready(function() {
 });
 
 function sendEmail(form) {
-    window.open("mailto:giriprabhu.seshadri@ladderminds.com?subject=AvionWear%20" + form.subject.value + "&body=Message:" + form.message.value);
+    window.open("mailto:giriprabhu.seshadri@ladderminds.com?subject=AvionWear%20" + form.subject.value + "&body=Contact Number: " + form.cell.value + "%0D%0AMessage: %0D%0A" + form.message.value + "%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A");
     return false; /* cancel submit or else page reloads */
 }
