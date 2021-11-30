@@ -11,6 +11,10 @@ $(document).ready(function() {
             carousel += '<div class="carousel-inner">'
             carousel += '<div class="carousel-item active">'
             carousel += '<img class="d-block w-100" src="' + data[0].image + '" alt="' + data[0].alt + '">'
+            carousel += '<div class="carousel-caption d-none d-md-block">'
+            carousel += '<h3>F4 Phantom</h3>'
+            carousel += '<p><a href="#" ><button>Buy</button></a></p>'
+            carousel += '</div>'
             carousel += '</div>'
 
 

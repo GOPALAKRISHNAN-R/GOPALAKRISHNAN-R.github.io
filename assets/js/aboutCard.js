@@ -8,7 +8,7 @@ $(document).ready(function() {
             var about = ''
 
             $.each(data, function(key, value) {
-                about += '<div class="col-sm-4 text-center">'
+                about += '<div class="col-lg-4 col-md-6 col-sm-12 text-center">'
                 about += '<div class="card">'
                 about += '<div class="card-body">'
                 about += '<a href="/products">'

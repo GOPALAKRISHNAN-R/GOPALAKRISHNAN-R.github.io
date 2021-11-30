@@ -4009,8 +4009,9 @@ input[type=button].btn-block {
 }
 
 .navbar-toggler {
-  padding: 0.25rem 0.75rem;
-  font-size: 1.25rem;
+  /*padding: 0.25rem 0.75rem;*/
+  padding: 0.2rem 0.2rem;
+  font-size: 0.7rem;
   line-height: 1;
   background-color: transparent;
   border: 1px solid transparent;
