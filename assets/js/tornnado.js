@@ -26,7 +26,9 @@ $(document).ready(function() {
             details += '<p><strong>Number of Pieces : </strong>'+data[0].numberOfPieces+'</p>'
             details += '<p><strong>Manufacturer : </strong>'+data[0].manufacturer+' </p>'
             details += '<p><strong>Country Of Origin : </strong>'+data[0].countryOfOrigin+'</p>'
-            details += '<p><strong>Price : </strong>'+data[0].price+'</p>'
+            details += '<p>M.R.P. : <span class="text-muted text-decoration"> ₹.'+data[0].mrp+'</span></p>'
+            details += '<p>Price : ₹.<strong>'+data[0].price+'</strong></p>'
+            details += '<p>You save :<strong> ₹.'+(data[0].mrp-data[0].price)+'('+(data[0].mrp-data[0].price)/100+'%)</strong> </p>'
             details += '<a href="'+data[0].buy+'" ><button>Buy</button></a>'
 
 
@@ -43,3 +45,5 @@ $(document).ready(function() {
         });
 
 });
+
+

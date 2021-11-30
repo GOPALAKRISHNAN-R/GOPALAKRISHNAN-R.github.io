@@ -168,3 +168,11 @@ button:active:before {
  background: #3a0ca3;
  transition: background 0s;
 }
+
+/*
+    Text Decoration
+ */
+
+.text-decoration {
+  text-decoration: line-through;
+}
