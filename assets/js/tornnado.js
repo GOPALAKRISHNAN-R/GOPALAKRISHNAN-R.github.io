@@ -19,7 +19,7 @@ $(document).ready(function() {
             });
 
             details += '<h5 class="mb-4 mt-2">About this item</h5>'
-            details += '<p><strong>Product : </strong>Tornnado </p>'
+            details += '<p><strong>Product : </strong>Tornado </p>'
             details += '<p><strong>Size : </strong>'+data[0].productDimensions+'</p>'
             details += '<p><strong>Weight : </strong>'+data[0].weight+'</p>'
             details += '<p><strong>Available : </strong>'+data[0].available+'</p>'
