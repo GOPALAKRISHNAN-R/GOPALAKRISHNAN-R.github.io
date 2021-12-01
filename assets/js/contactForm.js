@@ -11,7 +11,7 @@ $(document).ready(function() {
 
     form += '<div class="row">'
     form += '<div class="col-lg-12">'
-    form += '<h4 class="text-center">'
+    form += '<h4 class="text-center page-title">'
     form += FORM_NAME
     form += '</h4>'
     form += '<hr class="divider">'
