@@ -7,6 +7,7 @@ $(document).ready(function() {
         function(data) {
 
             var tornnado = '',
+            description = '',
                 details = '';
 
             $.each(data, function(key, value) {
@@ -14,16 +15,14 @@ $(document).ready(function() {
                 tornnado += '<div class="zoom-box mt-2" id="' + value.id + '">'
                 tornnado += '<img class="zoom-img" src="' + value.url + '" width="300" height="150" />'
                 tornnado += '</div>'
-
-
             });
+
+            description += data[0].desc
 
             details += '<h5 class="mb-4 mt-2">About this item</h5>'
             details += '<p><strong>Product : </strong>Tornado </p>'
             details += '<p><strong>Size : </strong>'+data[0].productDimensions+'</p>'
-            details += '<p><strong>Weight : </strong>'+data[0].weight+'</p>'
             details += '<p><strong>Available : </strong>'+data[0].available+'</p>'
-            details += '<p><strong>Number of Pieces : </strong>'+data[0].numberOfPieces+'</p>'
             details += '<p><strong>Manufacturer : </strong>'+data[0].manufacturer+' </p>'
             details += '<p><strong>Country Of Origin : </strong>'+data[0].countryOfOrigin+'</p>'
             details += '<p>M.R.P. : <span class="text-muted text-decoration"> ₹.'+data[0].mrp+'</span></p>'
@@ -33,7 +32,8 @@ $(document).ready(function() {
 
 
             $('#tornnado-catogary').append(tornnado);
-            $('#tornnado-details').append(details)
+            $('#tornnado-details').append(details);
+            $('#description').append(description);
 
 
             $(".zoom-img").jqZoom({
