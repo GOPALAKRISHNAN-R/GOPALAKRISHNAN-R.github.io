@@ -1,6 +1,6 @@
 {
 
-    "Tornnado":
+    "Tornado":
     {
         "id": 1,
         "imageUrl": "/assets/img/badges/tornnado/1.JPG",
@@ -8,7 +8,7 @@
         "size": "",
         "available": "Pin & Fridge Magnet",
         "price": "",
-        "url": "/tornnado",
+        "url": "/tornado",
         "buy": ""
     },
     "F4 Phantom":

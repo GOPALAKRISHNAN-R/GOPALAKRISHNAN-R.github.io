@@ -33,23 +33,6 @@ $(document).ready(function() {
                 about += '</div>'
                 about += '</div>'
 
-
-                // about += '<div class="col-lg-4 col-md-6 col-sm-12 text-center">'
-                // about += '<div class="card">'
-                // about += '<i class="fa fa-magnet"></i>'
-                // about += '<div class="card-body">'
-                // about += '<a href="/products">'
-                // about += '<h5 class="card-title">'
-                // about += value.name
-                // about += '</h5>'
-                // about += '</a>'
-                // about += '<p class="card-text">'
-                // about += value.desc
-                // about += '</p>'
-                // about += '</div>'
-                // about += '</div>'
-                // about += '</div>'
-
             });
 
             $('#card-about').append(about);
