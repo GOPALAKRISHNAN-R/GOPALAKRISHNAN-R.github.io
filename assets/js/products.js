@@ -16,7 +16,7 @@ $(document).ready(function() {
                 indexProductList += '<img class="card-img-top" src="' + value.imageUrl + '" alt="Card image cap">'
                 indexProductList += '<div class="card-body">'
                 indexProductList += '<h5 class="card-title">' + key + '</h5>'
-                indexProductList += '<p class="card-text">Price : ' + value.price + '</p>'
+                indexProductList += '<p class="card-text">Price : ₹.' + value.price + '</p>'
                 indexProductList += '<a href="' + value.url + '" >Read More</a>'
                 indexProductList += '<a href="' + value.buy + '" ><button>Buy</button></a>'
                 indexProductList += '</div>'
