@@ -24,12 +24,12 @@ $(document).ready(function() {
                 about += '</h3>'
                 about += '</a>'
                 about += '<br>'
-                about += '<ul style="list-style-type:circle">'
-                about += '<li class="text-muted text-left mb-0">'
+                // about += '<ul style="list-style-type:circle">'
+                about += '<p class="text-muted text-center mb-0">'
                 about += value.desc
-                about += '</li>'
+                about += '</p>'
                 about += '<br>'
-                about += '</ul>'
+                // about += '</ul>'
                 about += '</div>'
                 about += '</div>'
 
