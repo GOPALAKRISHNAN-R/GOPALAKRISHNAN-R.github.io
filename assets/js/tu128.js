@@ -21,8 +21,10 @@ $(document).ready(function() {
 
             description += data[0].desc
 
-            details += '<h5 class="mb-4 mt-2">About this item</h5>'
-            details += '<p><strong>Product : </strong>Tu 128 </p>'
+            details += '<h5>About this item</h5>'
+            details += '<p><br></p>'
+
+            // details += '<p><strong>Product : </strong>Tu 128 </p>'
             details += '<p><strong>Size : </strong>' + data[0].productDimensions + '</p>'
             details += '<p><strong>Material : </strong>' + data[0].material + '</p>'
             details += '<p><strong>Weight : </strong>' + data[0].weight + '</p>'

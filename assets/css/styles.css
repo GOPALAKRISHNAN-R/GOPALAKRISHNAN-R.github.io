@@ -88,6 +88,8 @@ h1, h2, h3, h4, h5, h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
+  color: #63636a !important;
+  font-size: 0.89rem; /* added by Gopal */
 }
 
 abbr[title],
@@ -230,6 +232,7 @@ th {
 }
 
 label {
+  font-size: 0.9rem;  /* added by Gopal */
   display: inline-block;
   margin-bottom: 0.5rem;
 }
@@ -389,7 +392,7 @@ h4, .h4 {
 }
 
 h5, .h5 {
-  font-size: 1.25rem;
+  font-size: 1.1rem; /* modified by gopal*/
 }
 
 h6, .h6 {
@@ -2013,6 +2016,7 @@ pre code {
   opacity: 1;
 }
 .form-control::placeholder {
+  font-size: 0.8rem; /* added by Gopal */
   color: #6c757d;
   opacity: 1;
 }
@@ -4372,6 +4376,7 @@ input[type=button].btn-block {
 .card-text:last-child {
   margin-bottom: 0;
 }
+
 
 .card-link:hover {
   text-decoration: none;

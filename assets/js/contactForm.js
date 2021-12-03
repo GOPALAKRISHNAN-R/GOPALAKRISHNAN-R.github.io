@@ -21,12 +21,12 @@ $(document).ready(function() {
     form += '</div>'
     form += '</div>'
 
-    form += '<div class="row mt-3">'
-    form += '<div class="col-lg-12" id="form">'
+    form += '<div class="row mt-3 justify-content-center">'
+    form += '<div class="col-lg-8" id="form">'
 
     form += '<form onsubmit="return sendEmail(this);">'
     form += '<div class="form-group">'
-    form += '<label for="emailInput">Email address</label>'
+    form += '<label for="emailInput">Email</label>'
     form += '<input type="email" name="emailInput" class="form-control" id="emailInput" aria-describedby="emailHelp" placeholder="Enter your email" required>'
     form += '</div>'
     form += '<div class="form-group">'

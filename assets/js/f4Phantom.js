@@ -22,8 +22,10 @@ $(document).ready(function() {
             description += data[0].desc
 
 
-            details += '<h5 class="mb-4 mt-2">About this item</h5>'
-            details += '<p><strong>Product : </strong>F4 Phantom </p>'
+            details += '<h5>About this item</h5>'
+            details += '<p><br></p>'
+
+            // details += '<p><strong>Product : </strong>F4 Phantom </p>'
             details += '<p><strong>Size : </strong>' + data[0].productDimensions + '</p>'
             details += '<p><strong>Material : </strong>' + data[0].material + '</p>'
             details += '<p><strong>Available : </strong>' + data[0].available + '</p>'

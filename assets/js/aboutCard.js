@@ -19,9 +19,9 @@ $(document).ready(function() {
                 }
                 about += '</a>'
                 about += '<a href="'+value.url+'">'
-                about += '<h3 class="h4 mb-2">'
+                about += '<h5 class="mb-2">'
                 about += value.name
-                about += '</h3>'
+                about += '</h5>'
                 about += '</a>'
                 about += '<br>'
                 // about += '<ul style="list-style-type:circle">'

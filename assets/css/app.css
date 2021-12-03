@@ -27,7 +27,7 @@
     font-family: ephesisFont,cursive;
     /*opacity: 0.1;*/
     font-weight: normal;
-    font-size: 2rem;
+    font-size: 1.3rem;
 
 }
 
@@ -123,19 +123,20 @@
 button {
  --color: #87CEEB;
  font-family: inherit;
+ text-transform: uppercase;
  display: inline-block;
  width: 8em;
  height: 2.6em;
  line-height: 2.5em;
- margin: 20px;
+ margin: 0px;
  position: relative;
  overflow: hidden;
  border: 2px solid var(--color);
  transition: color .5s;
  z-index: 1;
- font-size: 17px;
+ font-size: 0.9rem;
  border-radius: 6px;
- font-weight: 500;
+ font-weight: 200;
  color: var(--color);
 }
 

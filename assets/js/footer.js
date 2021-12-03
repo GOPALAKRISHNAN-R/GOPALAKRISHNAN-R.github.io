@@ -28,9 +28,9 @@ $(document).ready(function() {
             footer += '</div>'
 
             footer += '<div class="col-lg-2 col-md-12 col-sm-12 mt-3">'
-            footer += '<h5>'
+            footer += '<h6>'
             footer += data[0].aboutUs
-            footer += '</h5>'
+            footer += '</h6>'
             footer += '<br>'
             footer += '<div class="text-muted">'
             footer += '<a href=' + data[0].aboutUsUrl + '>'
@@ -75,9 +75,9 @@ $(document).ready(function() {
             footer += '</div>'
 
             footer += '<div class="col-lg-2 col-md-12 col-sm-12 mt-3">'
-            footer += '<h5>'
+            footer += '<h6>'
             footer += data[0].customerCare
-            footer += '</h5>'
+            footer += '</h6>'
             footer += '<br>'
             footer += '<div class="text-muted">'
             footer += '<a href=' + data[0].shippingAndDeliveryUrl + '>'
@@ -127,9 +127,9 @@ $(document).ready(function() {
             footer += '</div>'
 
             footer += '<div class="col-lg-5 col-md-12 col-sm-12 mt-3">'
-            footer += '<h5>'
+            footer += '<h6>'
             footer += data[0].corporateGifting
-            footer += '</h5>'
+            footer += '</h6>'
             footer += '<br>'
             footer += '<p class="text-muted">'
             footer += data[0].desc
