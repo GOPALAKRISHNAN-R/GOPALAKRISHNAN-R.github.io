@@ -18,7 +18,7 @@ $(document).ready(function() {
                     about += '<i class="fas fa-magnet text-primary"></i>'
                 }
                 about += '</a>'
-                about += '<a href="/products">'
+                about += '<a href="'+value.url+'">'
                 about += '<h3 class="h4 mb-2">'
                 about += value.name
                 about += '</h3>'

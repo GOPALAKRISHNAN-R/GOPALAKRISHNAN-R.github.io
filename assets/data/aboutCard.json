@@ -1,10 +1,12 @@
 [{
 	"id":1,
 	"name":"BADGES",
-	"desc":"These are wearable badges that suit your outfit."
+	"desc":"These are wearable badges that suit your outfit.",
+	"url":"/product/badges"
 },
 {
 	"id":2,
 	"name":"MAGNETS",
-	"desc":"These are fridge magnets which kindle the creativity of your home."
+	"desc":"These are fridge magnets which kindle the creativity of your home.",
+	"url":"/product/magnets"
 }]
