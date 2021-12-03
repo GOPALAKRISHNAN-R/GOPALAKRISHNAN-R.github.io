@@ -14,10 +14,22 @@ $(document).ready(function() {
                 indexProductList += '<div class="col-lg-3 col-md-6 text-center mt-2">'
                 indexProductList += '<div class="card" style="width: 16rem;">'
                 indexProductList += '<img class="card-img-top" src="' + value.imageUrl + '" alt="Card image cap">'
+
                 indexProductList += '<div class="card-body">'
-                indexProductList += '<h5 class="card-title">' + key + '</h5>'
-                indexProductList += '<p class="card-text">Price : ₹.' + value.price + '</p>'
-                indexProductList += '<a href="' + value.url + '" >Read More</a>'
+                // indexProductList += '<a href="' + value.url + '" >'
+
+                indexProductList += '<h5 class="card-title" >'
+                indexProductList += '<a href="' + value.url + '" >'
+                indexProductList += key
+                indexProductList += '</a>'
+                indexProductList += '</h5>'
+                indexProductList += '<p class="card-text">M.R.P : ₹ <span class=text-decoration text-muted>'
+                indexProductList += value.mrp
+                indexProductList += '</span><strong> '
+                indexProductList += value.price
+                indexProductList += '</strong></p>'
+                // indexProductList += '</a>'
+
                 indexProductList += '<a href="' + value.buy + '" ><button>Buy</button></a>'
                 indexProductList += '</div>'
                 indexProductList += '</div>'
