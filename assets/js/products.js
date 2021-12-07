@@ -13,8 +13,9 @@ $(document).ready(function() {
 
                 indexProductList += '<div class="col-lg-3 col-md-6 text-center mt-2">'
                 indexProductList += '<div class="card" style="width: 16rem;">'
+                indexProductList += '<a href="' + value.url + '" >'
                 indexProductList += '<img class="card-img-top" src="' + value.imageUrl + '" alt="Card image cap">'
-
+                indexProductList += '</a>'
                 indexProductList += '<div class="card-body">'
                 // indexProductList += '<a href="' + value.url + '" >'
 
