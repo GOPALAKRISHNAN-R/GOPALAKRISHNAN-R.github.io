@@ -47,21 +47,21 @@ $(document).ready(function() {
             footer += data[0].stockists
             footer += '</a>'
             footer += '</div>'
-            footer += '<div class="text-muted">'
-            footer += '<a href=' + data[0].partnershipWithResQUrl + '>'
-            footer += data[0].partnershipWithResQ
-            footer += '</a>'
-            footer += '</div>'
-            footer += '<div class="text-muted">'
-            footer += '<a href=' + data[0].pressUrl + '>'
-            footer += data[0].press
-            footer += '</a>'
-            footer += '</div>'
-            footer += '<div class="text-muted">'
-            footer += '<a href=' + data[0].notesUrl + '>'
-            footer += data[0].notes
-            footer += '</a>'
-            footer += '</div>'
+            // footer += '<div class="text-muted">'
+            // footer += '<a href=' + data[0].partnershipWithResQUrl + '>'
+            // footer += data[0].partnershipWithResQ
+            // footer += '</a>'
+            // footer += '</div>'
+            // footer += '<div class="text-muted">'
+            // footer += '<a href=' + data[0].pressUrl + '>'
+            // footer += data[0].press
+            // footer += '</a>'
+            // footer += '</div>'
+            // footer += '<div class="text-muted">'
+            // footer += '<a href=' + data[0].notesUrl + '>'
+            // footer += data[0].notes
+            // footer += '</a>'
+            // footer += '</div>'
             footer += '<div class="text-muted">'
             footer += '<a href=' + data[0].customiseUrl + '>'
             footer += data[0].customise

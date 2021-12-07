@@ -221,3 +221,9 @@ button:active:before {
     transform: scale(1.15);
 }
 
+
+.img-fluid-logo{
+ max-width: 50%;
+  height: auto;
+
+}
