@@ -59,6 +59,6 @@ $(document).ready(function() {
 });
 
 function sendEmail(form) {
-    window.open("mailto:giriprabhu.seshadri@ladderminds.com?subject=AvionWear%20" + form.subject.value + "&body=Contact Number: " + form.cell.value + "%0D%0AMessage: %0D%0A" + form.message.value + "%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A");
+    window.open("mailto:info@ladderminds.com?subject=AvionWear%20" + form.subject.value + "&body=Contact Number: " + form.cell.value + "%0D%0AMessage: %0D%0A" + form.message.value + "%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A");
     return false; /* cancel submit or else page reloads */
 }
