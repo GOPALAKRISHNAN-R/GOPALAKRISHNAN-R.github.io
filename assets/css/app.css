@@ -1,7 +1,19 @@
-/*
-    Customized CSS for APP
+/*************************************************
+    @author R.Gopalakrishnan
     Developed on 12/Oct/2021
-*/
+
+    Customized CSS for APP
+
+    Features newly added:
+    --------------------
+    Font family @font-face,
+    Zooming object,
+    Scroll indicator (horizontal,vertical),
+    Error page,
+    Button animation,
+    Text decoration,
+    Icon hover
+******************************************************/
 
 
 /*
@@ -23,15 +35,17 @@
 /*
     Page title
 */
-.page-title{
-    font-family: ephesisFont,cursive;
+.page-title {
+    font-family: ephesisFont, cursive;
     /*opacity: 0.1;*/
     font-weight: 500;
     font-size: 1.3rem;
 
 }
 
-/* zoom */
+/*
+    zoom
+*/
 
 .zoom {
     transition: transform .2s;
@@ -45,7 +59,9 @@
 }
 
 
-/* scroll indicator */
+/*
+    scroll indicator
+*/
 .scroll-progress-bar {
     /*margin-bottom: 70px;*/
     width: 0%;
@@ -56,7 +72,10 @@
     top: 0%;
 }
 
-/* scroll bar */
+/*
+    scroll bar
+*/
+
 /* width */
 ::-webkit-scrollbar {
     width: 6px;
@@ -76,6 +95,7 @@
 ::-webkit-scrollbar-thumb:hover {
     background: #003b5c;
 }
+
 
 /*
     Error page CSS
@@ -119,55 +139,57 @@
     margin-top: -50px;
 }
 
-
+/*
+    button animation
+*/
 button {
- --color: #87CEEB;
- font-family: inherit;
- text-transform: uppercase;
- display: inline-block;
- width: 8em;
- height: 2.6em;
- line-height: 2.5em;
- margin: 0px;
- position: relative;
- overflow: hidden;
- border: 2px solid var(--color);
- transition: color .5s;
- z-index: 1;
- font-size: 0.9rem;
- border-radius: 6px;
- font-weight: 200;
- color: var(--color);
+    --color: #87CEEB;
+    font-family: inherit;
+    text-transform: uppercase;
+    display: inline-block;
+    width: 8em;
+    height: 2.6em;
+    line-height: 2.5em;
+    margin: 0px;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid var(--color);
+    transition: color .5s;
+    z-index: 1;
+    font-size: 0.9rem;
+    border-radius: 6px;
+    font-weight: 200;
+    color: var(--color);
 }
 
 button:before {
- content: "";
- position: absolute;
- z-index: -1;
- background: var(--color);
- height: 150px;
- width: 200px;
- border-radius: 50%;
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background: var(--color);
+    height: 150px;
+    width: 200px;
+    border-radius: 50%;
 }
 
 button:hover {
- color: #fff;
+    color: #fff;
 }
 
 button:before {
- top: 100%;
- left: 100%;
- transition: all .7s;
+    top: 100%;
+    left: 100%;
+    transition: all .7s;
 }
 
 button:hover:before {
- top: -30px;
- left: -30px;
+    top: -30px;
+    left: -30px;
 }
 
 button:active:before {
- background: #3a0ca3;
- transition: background 0s;
+    background: #3a0ca3;
+    transition: background 0s;
 }
 
 /*
@@ -175,11 +197,13 @@ button:active:before {
  */
 
 .text-decoration {
-  text-decoration: line-through;
+    text-decoration: line-through;
 }
 
 
-/* icon hover effect */
+/*
+    icon hover effect
+*/
 .hover-fx {
     font-size: 36px;
     display: inline-block;
@@ -222,8 +246,8 @@ button:active:before {
 }
 
 
-.img-fluid-logo{
- max-width: 50%;
-  height: auto;
+.img-fluid-logo {
+    max-width: 50%;
+    height: auto;
 
 }
