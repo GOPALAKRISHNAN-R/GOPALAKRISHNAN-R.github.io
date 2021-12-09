@@ -13,7 +13,7 @@ $(document).ready(function() {
             $.each(data, function(key, value) {
 
                 tornnado += '<div class="zoom-box mt-2" id="' + value.id + '">'
-                tornnado += '<img class="zoom-img" src="' + value.url + '" width="300" height="150" />'
+                tornnado += '<img class="zoom-img" src="' + value.url + '" alt="Tornnado" width="300" height="150" />'
                 tornnado += '</div>'
             });
 
@@ -44,13 +44,6 @@ $(document).ready(function() {
             $('#tornnado-details').append(details);
             $('#description').append(description);
 
-
-            $(".zoom-img").jqZoom({
-                selectorWidth: 30,
-                selectorHeight: 30,
-                viewerWidth: 400,
-                viewerHeight: 300
-            });
         });
 
 });

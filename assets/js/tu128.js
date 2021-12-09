@@ -13,7 +13,7 @@ $(document).ready(function() {
             $.each(data, function(key, value) {
 
                 tu128 += '<div class="zoom-box mt-2" id="' + value.id + '">'
-                tu128 += '<img class="zoom-img" src="' + value.url + '" width="300" height="150" />'
+                tu128 += '<img class="zoom-img" src="' + value.url + '" alt="Tu 128" width="300" height="150" />'
                 tu128 += '</div>'
 
 
@@ -47,13 +47,6 @@ $(document).ready(function() {
             $('#tu128-details').append(details);
             $('#description').append(description);
 
-
-            $(".zoom-img").jqZoom({
-                selectorWidth: 30,
-                selectorHeight: 30,
-                viewerWidth: 400,
-                viewerHeight: 300
-            });
         });
 
 });

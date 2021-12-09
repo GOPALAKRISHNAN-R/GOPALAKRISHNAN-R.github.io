@@ -13,7 +13,7 @@ $(document).ready(function() {
             $.each(data, function(key, value) {
 
                 c17 += '<div class="zoom-box mt-2" id="' + value.id + '">'
-                c17 += '<img class="zoom-img" src="' + value.url + '" width="300" height="150" />'
+                c17 += '<img class="zoom-img" src="' + value.url + '" alt="c17 Globe Master" width="300" height="150" />'
                 c17 += '</div>'
 
 
@@ -44,12 +44,6 @@ $(document).ready(function() {
 
 
 
-            $(".zoom-img").jqZoom({
-                selectorWidth: 30,
-                selectorHeight: 30,
-                viewerWidth: 400,
-                viewerHeight: 300
-            });
         });
 
 });

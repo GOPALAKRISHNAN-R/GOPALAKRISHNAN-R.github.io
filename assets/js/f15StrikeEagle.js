@@ -13,7 +13,7 @@ $(document).ready(function() {
             $.each(data, function(key, value) {
 
                 f15 += '<div class="zoom-box mt-2" id="' + value.id + '">'
-                f15 += '<img class="zoom-img" src="' + value.url + '" width="300" height="150" />'
+                f15 += '<img class="zoom-img" src="' + value.url + '" alt="F15 Strike Eagle" width="300" height="150" />'
                 f15 += '</div>'
 
 
@@ -47,12 +47,6 @@ $(document).ready(function() {
             $('#description').append(description);
 
 
-            $(".zoom-img").jqZoom({
-                selectorWidth: 30,
-                selectorHeight: 30,
-                viewerWidth: 400,
-                viewerHeight: 300
-            });
         });
 
 });

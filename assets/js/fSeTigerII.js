@@ -13,7 +13,7 @@ $(document).ready(function() {
             $.each(data, function(key, value) {
 
                 fSe += '<div class="zoom-box mt-2" id="' + value.id + '">'
-                fSe += '<img class="zoom-img" src="' + value.url + '" width="300" height="150" />'
+                fSe += '<img class="zoom-img" src="' + value.url + '" alt="F-Se Tiger II" width="300" height="150" />'
                 fSe += '</div>'
 
 
@@ -48,12 +48,7 @@ $(document).ready(function() {
 
 
 
-            $(".zoom-img").jqZoom({
-                selectorWidth: 30,
-                selectorHeight: 30,
-                viewerWidth: 400,
-                viewerHeight: 300
-            });
+
         });
 
 });

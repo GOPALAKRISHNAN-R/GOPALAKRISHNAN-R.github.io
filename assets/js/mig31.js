@@ -13,7 +13,7 @@ $(document).ready(function() {
             $.each(data, function(key, value) {
 
                 mig31 += '<div class="zoom-box mt-2" id="' + value.id + '">'
-                mig31 += '<img class="zoom-img" src="' + value.url + '" width="300" height="150" />'
+                mig31 += '<img class="zoom-img" src="' + value.url + '" alt="MIG-31" width="300" height="150" />'
                 mig31 += '</div>'
 
 
@@ -47,12 +47,7 @@ $(document).ready(function() {
 
 
 
-            $(".zoom-img").jqZoom({
-                selectorWidth: 30,
-                selectorHeight: 30,
-                viewerWidth: 400,
-                viewerHeight: 300
-            });
+
         });
 
 });

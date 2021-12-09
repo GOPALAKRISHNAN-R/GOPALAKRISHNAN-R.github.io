@@ -13,7 +13,7 @@ $(document).ready(function() {
             $.each(data, function(key, value) {
 
                 f22 += '<div class="zoom-box mt-2" id="' + value.id + '">'
-                f22 += '<img class="zoom-img" src="' + value.url + '" width="300" height="150" />'
+                f22 += '<img class="zoom-img" src="' + value.url + '" alt="F22 Raptor" width="300" height="150" />'
                 f22 += '</div>'
 
 
@@ -48,13 +48,6 @@ $(document).ready(function() {
             $('#description').append(description);
 
 
-
-            $(".zoom-img").jqZoom({
-                selectorWidth: 30,
-                selectorHeight: 30,
-                viewerWidth: 400,
-                viewerHeight: 300
-            });
         });
 
 });

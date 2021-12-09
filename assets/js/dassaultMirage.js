@@ -13,7 +13,7 @@ $(document).ready(function() {
             $.each(data, function(key, value) {
 
                 dassaultMirage += '<div class="zoom-box mt-2" id="' + value.id + '">'
-                dassaultMirage += '<img class="zoom-img" src="' + value.url + '" width="300" height="150" />'
+                dassaultMirage += '<img class="zoom-img" src="' + value.url + '" alt="Dassault Mirage" width="300" height="150" />'
                 dassaultMirage += '</div>'
 
 
@@ -47,12 +47,6 @@ $(document).ready(function() {
 
 
 
-            $(".zoom-img").jqZoom({
-                selectorWidth: 30,
-                selectorHeight: 30,
-                viewerWidth: 400,
-                viewerHeight: 300
-            });
         });
 
 });

@@ -13,7 +13,7 @@ $(document).ready(function() {
             $.each(data, function(key, value) {
 
                 seaHarrier += '<div class="zoom-box mt-2" id="' + value.id + '">'
-                seaHarrier += '<img class="zoom-img" src="' + value.url + '" width="300" height="150" />'
+                seaHarrier += '<img class="zoom-img" src="' + value.url + '" alt="Sea Harrier" width="300" height="150" />'
                 seaHarrier += '</div>'
 
 
@@ -48,12 +48,7 @@ $(document).ready(function() {
             $('#description').append(description);
 
 
-            $(".zoom-img").jqZoom({
-                selectorWidth: 30,
-                selectorHeight: 30,
-                viewerWidth: 400,
-                viewerHeight: 300
-            });
+
         });
 
 });
