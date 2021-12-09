@@ -1,4 +1,7 @@
-/* footer js developed on 12/10/2021. */
+/*
+    footer js developed on 12/10/2021.
+
+    */
 $(document).ready(function() {
 
     // footer
@@ -7,18 +10,18 @@ $(document).ready(function() {
             var footer = ''
 
             footer += '<div class="col-lg-3 col-md-12 col-sm-12 mt-3">'
-            footer += '<img class="img-fluid" src="' + data[0].logoUrl + '">'
+            footer += '<img class="img-fluid" src="' + data[0].logoUrl + '" alt="AvionWear logo">'
             footer += '<div class="mt-3 text-center">'
-            footer += '<a class="btn btn-social" target="_blank" href="' + data[0].fbUrl + '">'
+            footer += '<a class="btn btn-social" rel="noopener" target="_blank" href="' + data[0].fbUrl + '">'
             footer += '<i class="fab fa-facebook-f"></i>'
             footer += '</a>'
-            footer += '<a class="btn btn-social" target="_blank" href="' + data[0].instaUrl + '">'
+            footer += '<a class="btn btn-social" rel="noopener" target="_blank" href="' + data[0].instaUrl + '">'
             footer += '<i class="fab fa-instagram"></i>'
             footer += '</a>'
-            footer += '<a class="btn btn-social" target="_blank" href="' + data[0].linkedInUrl + '">'
+            footer += '<a class="btn btn-social" rel="noopener" target="_blank" href="' + data[0].linkedInUrl + '">'
             footer += '<i class="fab fa-linkedin-in"></i>'
             footer += '</a>'
-            footer += '<a class="btn btn-social" target="_blank" href="' + data[0].twitterUrl + '">'
+            footer += '<a class="btn btn-social" rel="noopener" target="_blank" href="' + data[0].twitterUrl + '">'
             footer += '<i class="fab fa-twitter"></i>'
             footer += '</a>'
             footer += '</div>'

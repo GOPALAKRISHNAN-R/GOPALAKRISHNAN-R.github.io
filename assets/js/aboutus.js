@@ -9,9 +9,9 @@ $(document).ready(function() {
 
             $.each(data, function(key, value) {
                 if (value.id === 3) {
-                    about += '<h5>'
+                    about += '<p>'
                     about += value.content
-                    about += '</h5>'
+                    about += '</p>'
                 } else {
                     about += '<p class="mb-4">'
                     about += value.content

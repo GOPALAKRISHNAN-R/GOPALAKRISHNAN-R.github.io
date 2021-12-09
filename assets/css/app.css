@@ -1,8 +1,9 @@
 /*************************************************
     @author R.Gopalakrishnan
     Developed on 12/Oct/2021
-
-    Customized CSS for APP
+    Application CSS V1.0.0
+******************************************************/
+/*************************************************
 
     Features newly added:
     --------------------
@@ -21,7 +22,8 @@
 */
 @font-face {
     font-family: damionFont;
-    src: url(Damion-Regular.ttf);
+    src: url(/assets/font/Damion-Regular.ttf);
+    font-display: swap;
 }
 
 /*
@@ -29,14 +31,14 @@
 */
 @font-face {
     font-family: ephesisFont;
-    src: url(Ephesis-Regular.ttf);
+    src: url(/assets/font/Ephesis-Regular.ttf);
 }
 
 /*
     Page title
 */
 .page-title {
-    font-family: ephesisFont, cursive;
+    font-family: damionFont, cursive;
     /*opacity: 0.1;*/
     font-weight: 500;
     font-size: 1.3rem;
