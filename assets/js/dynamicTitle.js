@@ -88,7 +88,6 @@ switch (expression) {
         documentTitle(title);
         break;
 
-
     case 'mig-31':
         var title = 'MIG 31' + TITLE_NAME;
         documentTitle(title);
@@ -96,6 +95,21 @@ switch (expression) {
 
     case 'tu-128':
         var title = 'Tu-128' + TITLE_NAME;
+        documentTitle(title);
+        break;
+
+    case 'shipping-and-delivery':
+        var title = 'Shipping and Delivery' + TITLE_NAME;
+        documentTitle(title);
+        break;
+
+    case 'returns-and-cancellation':
+        var title = 'Returns and Cancellation' + TITLE_NAME;
+        documentTitle(title);
+        break;
+
+    case 'faqs':
+        var title = 'FAQs' + TITLE_NAME;
         documentTitle(title);
         break;
 

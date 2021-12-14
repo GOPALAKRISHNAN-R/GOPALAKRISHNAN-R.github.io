@@ -92,11 +92,11 @@ $(document).ready(function() {
             footer += data[0].returnsAndCancellation
             footer += '</a>'
             footer += '</div>'
-            footer += '<div class="text-muted">'
-            footer += '<a href=' + data[0].warrantyUrl + '>'
-            footer += data[0].warranty
-            footer += '</a>'
-            footer += '</div>'
+            // footer += '<div class="text-muted">'
+            // footer += '<a href=' + data[0].warrantyUrl + '>'
+            // footer += data[0].warranty
+            // footer += '</a>'
+            // footer += '</div>'
             footer += '<div class="text-muted">'
             footer += '<a href=' + data[0].privacyPolicy + '>'
             footer += 'Privacy Policy'
@@ -122,11 +122,11 @@ $(document).ready(function() {
             footer += data[0].faqs
             footer += '</a>'
             footer += '</div>'
-            footer += '<div class="text-muted">'
-            footer += '<a href=' + data[0].becomeAnAffiliateUrl + '>'
-            footer += data[0].becomeAnAffiliate
-            footer += '</a>'
-            footer += '</div>'
+            // footer += '<div class="text-muted">'
+            // footer += '<a href=' + data[0].becomeAnAffiliateUrl + '>'
+            // footer += data[0].becomeAnAffiliate
+            // footer += '</a>'
+            // footer += '</div>'
             footer += '</div>'
 
             footer += '<div class="col-lg-5 col-md-12 col-sm-12 mt-3">'
