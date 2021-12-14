@@ -23,7 +23,7 @@ $(document).ready(function() {
                 indexProductList += '</a>'
 
                 indexProductList += '<div class="card-body">'
-                indexProductList += '<h5 class="card-title" >'
+                indexProductList += '<h5>'
                 indexProductList += '<a href="' + value.url + '" >'
                 indexProductList += key
                 indexProductList += '</a>'
