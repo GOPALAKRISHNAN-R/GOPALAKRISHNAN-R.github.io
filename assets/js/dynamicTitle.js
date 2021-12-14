@@ -113,6 +113,22 @@ switch (expression) {
         documentTitle(title);
         break;
 
+    case 'privacy-policy':
+        var title = 'Privacy Policy' + TITLE_NAME;
+        documentTitle(title);
+        break;
+
+    case 'terms-of-use':
+        var title = 'Terms of Use' + TITLE_NAME;
+        documentTitle(title);
+        break;
+
+    case 'covid-19':
+        var title = 'Covid 19 Information' + TITLE_NAME;
+        documentTitle(title);
+        break;
+
+
     default:
         var title = 'AvionWear';
         documentTitle(title);
