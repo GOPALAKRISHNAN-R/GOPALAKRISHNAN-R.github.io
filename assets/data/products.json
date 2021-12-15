@@ -34,7 +34,7 @@
         "mrp": "149",
         "price": "79",
         "url": "/f16-fighting-falgon",
-        "buy": ""
+        "buy": "https://pages.razorpay.com/pl_IXf3RBuUc5AAn5/view"
     },
     "Sea Harrier":
     {
@@ -46,7 +46,7 @@
         "mrp": "149",
         "price": "79",
         "url": "/sea-harrier",
-        "buy": ""
+        "buy": "https://pages.razorpay.com/pl_IXfK8rRwJN1plr/view"
     },
     "Dassault Mirage":
     {
@@ -58,7 +58,7 @@
         "mrp": "149",
         "price": "79",
         "url": "/dassault-mirage",
-        "buy": ""
+        "buy": "https://pages.razorpay.com/pl_IXfVX9BoxGP2FU/view"
     },
 
     "C17 Globe Master":
@@ -71,7 +71,7 @@
         "mrp": "149",
         "price": "79",
         "url": "/c17-globe-master",
-        "buy": ""
+        "buy": "https://pages.razorpay.com/pl_IXfbq6W06TLoe0/view"
 
     },
     "F15 Strike Eagle":
@@ -97,7 +97,7 @@
         "mrp": "149",
         "price": "79",
         "url": "/f35-jsf",
-        "buy": ""
+        "buy": "https://pages.razorpay.com/pl_IXht2m70n4uBrf/view"
 
     },
     "MIG 31":
@@ -110,7 +110,7 @@
         "mrp": "149",
         "price": "79",
         "url": "/mig-31",
-        "buy": ""
+        "buy": "https://pages.razorpay.com/pl_IXi1vINRbZZxG1/view"
 
     }
 }

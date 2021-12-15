@@ -35,7 +35,7 @@ $(document).ready(function() {
             details += '</strong></p>'
             // details += '<p>Price : ₹.<strong>'+data[0].price+'</strong></p>'
             // details += '<p>You save :<strong> ₹.'+(data[0].mrp-data[0].price)+'('+(data[0].mrp-data[0].price)/100+'%)</strong> </p>'
-            details += '<a href="' + data[0].buy + '" ><button>Buy</button></a>'
+            details += '<a href="' + data[0].buy + '" target="_blank" rel="noopener"><button>Buy</button></a>'
 
 
             $('#c17-catogary').append(c17);
