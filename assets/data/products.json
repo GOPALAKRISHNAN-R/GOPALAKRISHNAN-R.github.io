@@ -60,18 +60,7 @@
         "url": "/dassault-mirage",
         "buy": ""
     },
-    "F22 Raptor":
-    {
-        "id": 6,
-        "imageUrl": "/assets/img/badges/f22-raptor/1.JPG",
-        "color": "",
-        "size": "",
-        "available": "Pin & Fridge Magnet",
-        "mrp": "149",
-        "price": "79",
-        "url": "/f22-raptor",
-        "buy": ""
-    },
+
     "C17 Globe Master":
     {
         "id": 7,
@@ -111,19 +100,6 @@
         "buy": ""
 
     },
-    "F-5E Tiger II":
-    {
-        "id": 10,
-        "imageUrl": "/assets/img/badges/f-se-tiger-II/1.JPG",
-        "color": "",
-        "size": "",
-        "available": "Pin & Fridge Magnet",
-        "mrp": "149",
-        "price": "79",
-        "url": "/f-5e-tiger-II",
-        "buy": ""
-
-    },
     "MIG 31":
     {
         "id": 12,
@@ -134,19 +110,6 @@
         "mrp": "149",
         "price": "79",
         "url": "/mig-31",
-        "buy": ""
-
-    },
-    "Tu 128":
-    {
-        "id": 13,
-        "imageUrl": "/assets/img/badges/tu-128/1.JPG",
-        "color": "",
-        "size": "",
-        "available": "Pin & Fridge Magnet",
-        "mrp": "149",
-        "price": "79",
-        "url": "/tu-128",
         "buy": ""
 
     }
