@@ -28,7 +28,7 @@ $(document).ready(function() {
             details += '<p><strong>Available : </strong>'+data[0].available+'</p>'
             details += '<p><strong>Manufacturer : </strong>'+data[0].manufacturer+' </p>'
             details += '<p><strong>Country Of Origin : </strong>'+data[0].countryOfOrigin+'</p>'
-           details += '<p>M.R.P. : ₹ <span class="text-muted text-decoration">'
+            details += '<p>M.R.P. : ₹ <span class="text-muted text-decoration">'
             details += data[0].mrp
             details += '</span><strong> '
             details += data[0].price
