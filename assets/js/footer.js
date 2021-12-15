@@ -9,7 +9,7 @@ $(document).ready(function() {
         function(data) {
             var footer = ''
 
-            footer += '<div class="col-lg-3 col-md-12 col-sm-12 mt-3">'
+            footer += '<div class="col-lg-3 col-md-12 col-sm-12 mt-3" >'
             footer += '<img class="img-fluid" src="' + data[0].logoUrl + '" alt="AvionWear logo">'
             footer += '<div class="mt-3 text-center">'
             footer += '<a class="btn btn-social" rel="noopener" target="_blank" href="' + data[0].fbUrl + '">'
@@ -30,7 +30,7 @@ $(document).ready(function() {
             footer += '</div>'
             footer += '</div>'
 
-            footer += '<div class="col-lg-2 col-md-12 col-sm-12 mt-3">'
+            footer += '<div class="col-lg-2 col-md-12 col-sm-12 mt-3" >'
             footer += '<h6>'
             footer += data[0].aboutUs
             footer += '</h6>'
@@ -39,7 +39,7 @@ $(document).ready(function() {
             footer += '<a href=' + data[0].aboutUsUrl + '>'
             footer += data[0].aboutUs
             footer += '</a>'
-            footer += '</div class="text-muted">'
+            footer += '</div>'
             footer += '<div class="text-muted">'
             footer += '<a href=' + data[0].ourMaterialUrl + '>'
             footer += data[0].ourMaterial
@@ -143,3 +143,4 @@ $(document).ready(function() {
         });
 
 });
+// role="list" aria-expanded="true"
