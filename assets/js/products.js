@@ -33,7 +33,7 @@ $(document).ready(function() {
                 indexProductList += '</span><strong> '
                 indexProductList += value.price
                 indexProductList += '</strong></p>'
-                indexProductList += '<a href="' + value.buy + '" ><button>Buy</button></a>'
+                indexProductList += '<a href="' + value.buy + '" target="_blank"><button>Buy</button></a>'
                 indexProductList += '</div>'
 
                 indexProductList += '</div>'
