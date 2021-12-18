@@ -1,0 +1,49 @@
+[
+{
+    "id": "1",
+    "question": "#1 Do you only work on Tech ideas",
+    "answer": "No, we also work on non-tech ideas",
+    "div_id": "collapseOne",
+    "data_target": "#collapseOne",
+    "aria_labelledby": "headingOne"
+},
+{
+    "id": "2",
+    "question": "#2 I have an Idea, will you build it up for me",
+    "answer": "Yes, but we expect you to co-work with us",
+    "div_id": "collapseTwo",
+    "data_target": "#collapseTwo",
+    "aria_labelledby": "headingTwo"
+},
+{
+    "id": "3",
+    "question": "#3 Are you an incubator / accelerator",
+    "answer": "No, we are a labs company. We build prototypes",
+    "div_id": "collapseThree",
+    "data_target": "#collapseThree",
+    "aria_labelledby": "headingThree"
+},
+{
+    "id": "4",
+    "question": "#4 Are you a student project center",
+    "answer": "If you want to buy a project, sorry we don't have one",
+    "div_id": "collapseFour",
+    "data_target": "#collapseFour",
+    "aria_labelledby": "headingFour"
+},
+{
+    "id": "5",
+    "question": "#5 How do you work",
+    "answer": "Let's discuss over a cup of coffee",
+    "div_id": "collapseFive",
+    "data_target": "#collapseFive",
+    "aria_labelledby": "headingFive"
+},
+{
+    "id": "6",
+    "question": "#6 What are your focus areas",
+    "answer": "We excel in Mobile Web Application Development. Our skills extend to every area of design, development and marketing",
+    "div_id": "collapseSix",
+    "data_target": "#collapseSix",
+    "aria_labelledby": "headingSix"
+}]
