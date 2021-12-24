@@ -1,0 +1,57 @@
+[
+{
+    "id": 1,
+    "name": "HOME",
+    "url": "/home",
+    "submenu":""
+},
+{
+    "id": 2,
+    "name": "BUSINESSES",
+    "url": "#",
+    "submenu": [
+    {
+        "id": 1,
+        "name": "AEROSPACE & ENGINEERING",
+        "url": "/aerospace-engineering"
+    },
+    {
+        "id": 2,
+        "name": "EDUCATION",
+        "url": "/education"
+    },
+    {
+        "id": 3,
+        "name": "LIFE STYLE",
+        "url": "/life-style"
+    },
+    {
+        "id": 4,
+        "name": "CAREER SERVICES",
+        "url": "/career-services"
+    },
+    {
+        "id": 5,
+        "name": "MARKET RESEARCH",
+        "url": "/market-research"
+    }]
+},
+{
+    "id": 3,
+    "name": "C.L.I.P",
+    "url": "/clip",
+    "submenu":""
+},
+{
+    "id": 4,
+    "name": "FAQ",
+    "url": "#faq",
+    "submenu":""
+},
+{
+    "id": 5,
+    "name": "CONTACT",
+    "url": "#contact",
+    "submenu":""
+}
+]
