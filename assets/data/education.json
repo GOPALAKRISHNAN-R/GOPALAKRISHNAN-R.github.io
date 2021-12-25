@@ -1,0 +1,20 @@
+[
+	{
+		"id":1,
+		"name":"<div class='row text-center mt-3'><div class='col-lg-12'><h5>ACTIVEDABBA</h5><hr class='divider'></div></div>",
+		"desc":"<div class='row'><div class='col-lg-8 col-md-8 col-sm-12'><p>Welcome to ACTIVE DABBA. An exclusive online store for creative activity boxes involving themes like Crafts, Aeromodelling and so on. These kits are fabricated by a team of Subject and Field Experts and tested by various SME’s all around the world. Our kits are open ended and provide scope for imagination. We ensure that our kits would replace the user’s screen time into quality creative time.</p><br/><p>They are based on S.T.E.M Learning principles and aim to improve the motor skills of the user apart from tapping their creative energy. These kits are tested and approved by age appropriate users across countries.</p><p><strong>Explore</strong></p><p><a href='https://www.activedabba.com/' target ='_blank'>www.activedabba.com</a></p></div>",
+		"url":"<div class='col-lg-4'><img class='img-thumbnail' src='/assets/img/businesses/aero/1.jpg'></div></div>"
+	},
+	{
+		"id":2,
+		"name":"<div class='row text-center mt-3'><div class='col-lg-12'><h5>AIR'N'CRAFT</h5><hr class='divider'></div></div>",
+		"desc":"<div class='row'><div class='col-md-4'><img class='img-thumbnail' src='/assets/img/businesses/aero/1.jpg'></div>",
+		"url":"<div class='col-lg-8 col-md-8 col-sm-12'><p>Air’N’Craft is an evolutionary platform offering activities, workshops and contests for the creative and geeky minds in crafts and aero sciences. The offerings are designed and planned by field and subject experts to enrich the participants’ knowledge and trigger their creative thinking ability.</p><p><br/></p><p>The workshops are jointly handled by WeThe5Pilots (An Aero-Modelling start-up focusing on teaching the concepts of Aero Sciences to the aspiring students) and Aydiv Crafts (A brand offering customized gifting solutions and regular workshops / events to tap the imaginative spectrum of every individual)</p><p><strong>Explore</strong></p><p><a href='https://www.airncraft.com/' target ='_blank'>www.airncraft.com</a></p></div></div>"
+	},
+	{
+		"id":3,
+		"name":"<div class='row text-center mt-3'><div class='col-lg-12'><h5>NOTESMINUTE</h5><hr class='divider'></div></div>",
+		"desc":"<div class='row'><div class='col-lg-8 col-md-8 col-sm-12'><p>NotesMinute aims to make remembering notes easier by providing pointers in the form of headings and small tips about the topic</p><p>The access to the notes are available to all students in the Technology and Vocational Study areas</p><p>The access to notes will help the remembering notes and making learning easier</p><p><strong>Explore</strong></p><p><a href='https://www.notesminute.com/' target ='_blank'>www.notesminute.com</a></p></div>",
+		"url":"<div class='col-md-4'><img class='img-thumbnail' src='/assets/img/businesses/aero/1.jpg'></div></div>"
+	}
+]
