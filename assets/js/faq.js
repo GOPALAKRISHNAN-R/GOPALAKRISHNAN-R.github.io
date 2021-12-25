@@ -12,9 +12,9 @@ $(document).ready(function() {
                 faq += '<div class="card">'
                 faq += '<div class="card-header" id="headingOne">'
                 faq += '<h2 class="mb-0">'
-                faq += '<button class="btn btn-link" type="button" data-toggle="collapse" data-target="'+value.data_target+'" aria-expanded="true" aria-controls="'+value.div_id+'">'
+                faq += '<div class="btn btn-link" data-toggle="collapse" data-target="'+value.data_target+'" aria-expanded="true" aria-controls="'+value.div_id+'">'
                 faq += value.question
-                faq += '</button>'
+                faq += '</div>'
                 faq += '</h2>'
                 faq += '</div>'
                 faq += '<div id = "'+value.div_id+'" class = "collapse" aria-labelledby = "'+value.aria_labelledby+'" data-parent = "#accordionExample" >'
