@@ -10187,13 +10187,17 @@ header.masthead .masthead-heading {
     font-size: 1.25rem;
     font-style: italic;
     line-height: 2.25rem;
-    margin-bottom: 2rem;
+    /*margin-bottom: 2rem;*/
+    margin-bottom: 4rem; /* added by Gopal */
+    margin-right: 27rem;/* added by Gopal */
   }
   header.masthead .masthead-heading {
     font-size: 2.5rem;
     font-weight: 700;
     line-height: 4.5rem;
-    margin-bottom: 4rem;
+    /*margin-bottom: 4rem;*/
+    margin-bottom: 0rem; /* added by Gopal */
+    margin-right: 49rem;/* added by Gopal */
   }
 }
 #portfolio .portfolio-item {

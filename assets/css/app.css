@@ -153,16 +153,20 @@ header.masthead-clip .masthead-heading {
     padding-bottom: 12.5rem;
   }
   header.masthead-clip .masthead-subheading {
-    font-size: 2.25rem;
+    font-size: 1.25rem;
     font-style: italic;
     line-height: 2.25rem;
-    margin-bottom: 2rem;
+    /*margin-bottom: 2rem;*/
+    margin-bottom: 4rem; /* added by Gopal */
+    margin-right: 38rem;/* added by Gopal */
   }
   header.masthead-clip .masthead-heading {
-    font-size: 4.5rem;
+    font-size: 2.5rem;
     font-weight: 700;
     line-height: 4.5rem;
-    margin-bottom: 4rem;
+    /*margin-bottom: 4rem;*/
+    margin-bottom: 0rem; /* added by Gopal */
+    margin-right: 61rem;/* added by Gopal */
   }
 }
 
@@ -175,6 +179,7 @@ header.masthead-clip .masthead-heading {
 .cta {
  border: none;
  background: none;
+ margin-right: 54rem;
 }
 
 .cta span {
