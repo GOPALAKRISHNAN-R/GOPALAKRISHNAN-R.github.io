@@ -221,3 +221,20 @@ header.masthead-clip .masthead-heading {
  transform: scaleX(1);
  transform-origin: bottom left;
 }
+
+
+/*
+
+*/
+
+/*video*/
+
+#myVideo {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  max-width: 75%;
+  max-height: 100%;
+  border-radius: 8px;
+
+}

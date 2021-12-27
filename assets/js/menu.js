@@ -17,15 +17,15 @@ $(document).ready(function() {
                     menu += ' <div class="dropdown-menu" aria-labelledby="navbarDropdown">'
                     menu += '<div class="row no-gutters">'
                     $.each(value.submenu, function(key, val) {
-                        if (val.id > 1) {
-                            menu += '<div class="col-lg-2 col-md-6 col-sm-12 padding-0">'
-                            menu += ' <span class="text-uppercase text-white ml-3">'
-                            menu += '<a href="' + val.url + '">'
-                            menu += val.name
-                            menu += '</a>'
-                            menu += '</span>'
-                            menu += '</div>'
-                        } else {
+                        // if (val.id > 1) {
+                        //     menu += '<div class="col-lg-2 col-md-6 col-sm-12 padding-0">'
+                        //     menu += ' <span class="text-uppercase text-white ml-3">'
+                        //     menu += '<a href="' + val.url + '">'
+                        //     menu += val.name
+                        //     menu += '</a>'
+                        //     menu += '</span>'
+                        //     menu += '</div>'
+                        // } else {
                             menu += '<div class="col-lg-3 col-md-6 col-sm-12 padding-0">'
                             menu += ' <span class="text-uppercase text-white ml-3">'
                             menu += '<a href="' + val.url + '">'
@@ -33,7 +33,7 @@ $(document).ready(function() {
                             menu += '</a>'
                             menu += '</span>'
                             menu += '</div>'
-                        }
+                        // }
                     });
                     menu += '</div>'
                     menu += '</div>'

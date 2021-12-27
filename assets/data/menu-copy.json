@@ -3,7 +3,7 @@
     "id": 1,
     "name": "HOME",
     "url": "/home",
-    "submenu": ""
+    "submenu":""
 },
 {
     "id": 2,
@@ -29,44 +29,29 @@
         "id": 4,
         "name": "CAREER SERVICES",
         "url": "/career-services"
+    },
+    {
+        "id": 5,
+        "name": "MARKET RESEARCH",
+        "url": "/market-research"
     }]
 },
 {
     "id": 3,
-    "name": "ABOUT US",
-    "url": "#",
-    "submenu": [
-    {
-        "id": 1,
-        "name": "VALUES AND PURPOSE",
-        "url": "/values-purpose"
-    },
-    {
-        "id": 2,
-        "name": "LEADERSHIP TEAM",
-        "url": "/leadership-team"
-    },
-    {
-        "id": 3,
-        "name": "OUR VENTURES",
-        "url": "/our-ventures"
-    }]
+    "name": "C.L.I.P",
+    "url": "/clip",
+    "submenu":""
 },
 {
     "id": 4,
-    "name": "C.L.I.P",
-    "url": "/clip",
-    "submenu": ""
-},
-{
-    "id": 5,
     "name": "FAQ",
     "url": "#faq",
-    "submenu": ""
+    "submenu":""
 },
 {
     "id": 5,
     "name": "CONTACT",
     "url": "#contact",
-    "submenu": ""
-}]
+    "submenu":""
+}
+]
