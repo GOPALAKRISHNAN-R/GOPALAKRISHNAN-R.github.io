@@ -81,6 +81,7 @@
     .navbar .dropdown-menu {
         border: 1px solid rgba(0, 0, 0, .15);
         background-color: #fff;
+        margin-top: -10px;
     }
 
 }
