@@ -10,7 +10,7 @@ $(document).ready(function() {
             $.each(data, function(key, value) {
 
                 faq += '<div class="card">'
-                faq += '<div class="card-header" id="headingOne">'
+                faq += '<div class="card-header" id="'+value.id+'">'
                 faq += '<h2 class="mb-0">'
                 faq += '<div class="btn btn-link" data-toggle="collapse" data-target="'+value.data_target+'" aria-expanded="true" aria-controls="'+value.div_id+'">'
                 faq += value.question
