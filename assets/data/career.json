@@ -2,13 +2,14 @@
 	{
 		"id":1,
 		"name":"<div class='row text-center mt-3'><div class='col-lg-12'><h5>PROFILEWEAVE</h5><hr class='divider'></div></div>",
-		"desc":"<div class='row'><div class='col-lg-8 col-md-8 col-sm-12'><p>A cross defive supported web application providing the right tools to build a profile that is ATS friendly. The pre-filled system gives the users easy access to build profiles on the go, publish, download, print and share.</p></div>",
+		"desc":"<div class='row'><div class='col-lg-8 col-md-8 col-sm-12'><p>The worst part about getting a job is the paperwork. If you&apos;re looking for a new job, we&apos;ve made it easy to build your profile and get your resume right away.</p> <p> ProfileWeave is the perfect tool to build and manage your personal and professional profiles all in one place. With our user-friendly system, you can create a profile that&apos;s ATS friendly and be done in minutes. The pre-filled system gives you everything</p></div>",
 		"url":"<div class='col-lg-4 col-md-4'><img class='img-thumbnail' src='/assets/img/businesses/career/profileweave/1.png'></div></div>"
 	},
 	{
 		"id":2,
 		"name":"<div class='row text-center mt-3'><div class='col-lg-12 col-md-12 col-sm-12'><h5>WORKINTRO</h5><hr class='divider'/></div></div>",
-		"desc":"<div class='row'><div class='col-lg-12'><p>Our mission is to create products that provide opportunities for all job seekers. We give Hassle free Interview Connections.</p><p><strong>Explore</strong></p><p><a href='http://www.workintro.com/' target ='_blank'>www.workintro.com</a></p></div></div>",
+		"desc":"<div class='row'><div class='col-lg-12'><p>Looking to find a job but want no hassle? WORKINTRO connects you with interviews in your area. You can also register to take our assessment, which will analyse your skills and interests. It will then provide you with job opportunities that match what you're looking for.</p><p>We're committed to giving you the best chance at finding a job, no matter who you are or what's your career goal.</p><p><strong>Explore</strong></p><p><a href='http://www.workintro.com/' target ='_blank'>www.workintro.com</a></p></div></div>",
 		"url":""
 	}
 ]
+
