@@ -10178,6 +10178,12 @@ header.masthead .masthead-heading {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
+/**
+ * old one
+ *
+ * */
+
+/*
 @media (min-width: 768px) {
   header.masthead {
     padding-top: 17rem;
@@ -10188,18 +10194,301 @@ header.masthead .masthead-heading {
     font-style: italic;
     line-height: 2.25rem;
     /*margin-bottom: 2rem;*/
-    margin-bottom: 4rem; /* added by Gopal */
-    margin-right: 27rem;/* added by Gopal */
-  }
-  header.masthead .masthead-heading {
-    font-size: 2.5rem;
-    font-weight: 700;
-    line-height: 4.5rem;
+    /*margin-bottom: 4rem; /* added by Gopal */
+    /*margin-right: 27rem;/* added by Gopal */
+  /*}*/
+  /*header.masthead .masthead-heading {*/
+    /*font-size: 2.5rem;*/
+    /*font-weight: 700;*/
+    /*line-height: 4.5rem;*/
     /*margin-bottom: 4rem;*/
-    margin-bottom: 0rem; /* added by Gopal */
-    margin-right: 49rem;/* added by Gopal */
-  }
+    /*margin-bottom: 0rem; /* added by Gopal */
+    /*margin-right: 49rem;/* added by Gopal */
+  /*}*/
+/*}*/
+
+
+/*
+    added for display content in left corner side
+
+*/
+
+
+
+@media (max-width: 576px) {
+    header.masthead {
+        padding-top: 17rem;
+        padding-bottom: 12.5rem;
+    }
+
+    header.masthead .masthead-subheading {
+        margin-right: 24%;
+        font-size: 0.89rem;
+        font-style: italic;
+        line-height: 2rem;
+        /*margin-bottom: 2rem;*/
+        margin-bottom: 4rem;
+        /* added by Gopal */
+        /*margin-right: 38rem;/* added by Gopal */
+        */
+        /*margin-right: 75%;*/
+
+    }
+
+    header.masthead .masthead-heading {
+        font-size: 1rem;
+        font-weight: 700;
+        line-height: 4.5rem;
+        /*margin-bottom: 4rem;*/
+        margin-bottom: 0rem;
+        /* added by Gopal */
+        /*margin-right: 61rem;/* added by Gopal */
+        */
+        /*margin-right: 75%;*/
+        margin-right: 90%;
+    }
+
+    header.masthead .cta {
+        border: none;
+        background: none;
+        margin-right: 50%;
+    }
+
+    header.masthead .cta span {
+        padding-bottom: 7px;
+        letter-spacing: 1px;
+        font-size: 0.7rem;
+        padding-right: 15px;
+        text-transform: uppercase;
+    }
+
+    header.masthead .cta svg {
+        transform: translateX(-8px);
+        transition: all 0.3s ease;
+    }
+
+    header.masthead .cta:hover svg {
+        transform: translateX(0);
+    }
+
+    header.masthead .cta:active svg {
+        transform: scale(0.9);
+    }
+
+    .hover-underline-animation {
+        position: relative;
+        color: black;
+        padding-bottom: 20px;
+    }
+
+    .hover-underline-animation:after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        transform: scaleX(0);
+        height: 1.5px;
+        bottom: 0;
+        left: 0;
+        background-color: #000000;
+        transform-origin: bottom right;
+        transition: transform 0.25s ease-out;
+    }
+
+    header.masthead .cta:hover .hover-underline-animation:after {
+        transform: scaleX(1);
+        transform-origin: bottom left;
+    }
+
 }
+
+@media (min-width: 768px) {
+    header.masthead {
+        padding-top: 17rem;
+        padding-bottom: 12.5rem;
+    }
+
+    header.masthead .masthead-subheading {
+        font-size: 1.25rem;
+        font-style: italic;
+        line-height: 2.25rem;
+        /*margin-bottom: 2rem;*/
+        margin-bottom: 4rem;
+        /* added by Gopal */
+        /*margin-right: 38rem;/* added by Gopal */
+        */
+        /*margin-right: 75%;*/
+        margin-right: 70%;
+    }
+
+    header.masthead .masthead-heading {
+        margin-right: 53%;
+        font-size: 2.5rem;
+        font-weight: 700;
+        line-height: 4.5rem;
+        /*margin-bottom: 4rem;*/
+        margin-bottom: 0rem;
+        /* added by Gopal */
+        /*margin-right: 61rem;/* added by Gopal */
+        */
+        /*margin-right: 75%;*/
+
+    }
+
+    header.masthead .cta {
+        border: none;
+        background: none;
+        /*margin-right: 50%;*/
+    }
+
+    header.masthead .cta span {
+        padding-bottom: 7px;
+        letter-spacing: 4px;
+        font-size: 16px;
+        padding-right: 15px;
+        text-transform: uppercase;
+    }
+
+}
+
+@media (min-width: 992px) {
+    header.masthead {
+        padding-top: 17rem;
+        padding-bottom: 12.5rem;
+    }
+
+    header.masthead .masthead-subheading {
+        margin-right: 52%;
+        font-size: 1.25rem;
+        font-style: italic;
+        line-height: 2.25rem;
+        /*margin-bottom: 2rem;*/
+        margin-bottom: 4rem;
+        /* added by Gopal */
+        /*margin-right: 38rem;/* added by Gopal */
+        */
+        /*margin-right: 75%;*/
+
+    }
+
+    header.masthead .masthead-heading {
+        margin-right: 71%;
+        font-size: 2.5rem;
+        font-weight: 700;
+        line-height: 4.5rem;
+        /*margin-bottom: 4rem;*/
+        margin-bottom: 0rem;
+        /* added by Gopal */
+        /*margin-right: 61rem;/* added by Gopal */
+        */
+        /*margin-right: 75%;*/
+
+    }
+
+    header.masthead .cta {
+        margin-right: 78%;
+        border: none;
+        background: none;
+    }
+
+    header.masthead .cta span {
+        padding-bottom: 7px;
+        letter-spacing: 1px;
+        font-size: 1rem;
+        padding-right: 15px;
+        text-transform: uppercase;
+    }
+
+    header.masthead .cta svg {
+        transform: translateX(-8px);
+        transition: all 0.3s ease;
+    }
+
+    header.masthead .cta:hover svg {
+        transform: translateX(0);
+    }
+
+    header.masthead .cta:active svg {
+        transform: scale(0.9);
+    }
+
+    .hover-underline-animation {
+        position: relative;
+        color: black;
+        padding-bottom: 20px;
+    }
+
+    .hover-underline-animation:after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        transform: scaleX(0);
+        height: 1.5px;
+        bottom: 0;
+        left: 0;
+        background-color: #000000;
+        transform-origin: bottom right;
+        transition: transform 0.25s ease-out;
+    }
+
+    header.masthead .cta:hover .hover-underline-animation:after {
+        transform: scaleX(1);
+        transform-origin: bottom left;
+    }
+}
+
+@media (min-width: 1200px) {
+    header.masthead {
+        padding-top: 17rem;
+        padding-bottom: 12.5rem;
+    }
+
+    header.masthead .masthead-subheading {
+        font-size: 1.25rem;
+        font-style: italic;
+        line-height: 2.25rem;
+        /*margin-bottom: 2rem;*/
+        margin-bottom: 4rem;
+        /* added by Gopal */
+        /*margin-right: 38rem;/* added by Gopal */
+        */
+        /*margin-right: 75%;*/
+        margin-right: 70%;
+    }
+
+    header.masthead .masthead-heading {
+        font-size: 2.5rem;
+        font-weight: 700;
+        line-height: 4.5rem;
+        /*margin-bottom: 4rem;*/
+        margin-bottom: 0rem;
+        /* added by Gopal */
+        /*margin-right: 61rem;/* added by Gopal */
+        */
+        /*margin-right: 75%;*/
+        margin-right: 90%;
+    }
+
+    header.masthead .cta {
+        border: none;
+        background: none;
+        /*margin-right: 50%;*/
+    }
+
+    header.masthead .cta span {
+        padding-bottom: 7px;
+        letter-spacing: 4px;
+        font-size: 16px;
+        padding-right: 15px;
+        text-transform: uppercase;
+    }
+}
+
+
+
+
+/*
+    end
+*/
 #portfolio .portfolio-item {
   max-width: 25rem;
   margin-left: auto;
