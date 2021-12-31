@@ -15,8 +15,28 @@ $(document).ready(function() {
                     menu += value.name
                     menu += ' </a>'
                     menu += ' <div class="dropdown-menu" aria-labelledby="navbarDropdown">'
-                    menu += '<div class="row no-gutters">'
+                    menu += '<div class="row justify-content-md-center">'
                     $.each(value.submenu, function(key, val) {
+                        // if (val.name.length >15) {
+                            menu += '<div class="col-md-auto">'
+                            menu += ' <span class="text-uppercase text-white ml-3">'
+                            menu += '<a href="' + val.url + '">'
+                            menu += val.name
+                            menu += '</a>'
+                            menu += '</span>'
+                            menu += '</div>'
+
+//                         }
+//                         else
+//                         {
+//                         menu += '<div class="col col-lg-2">'
+//                         menu += ' <span class="text-uppercase text-white ml-3">'
+//                         menu += '<a href="' + val.url + '">'
+//                         menu += val.name
+//                         menu += '</a>'
+//                         menu += '</span>'
+//                         menu += '</div>'
+// }
                         // if (val.id > 1) {
                         //     menu += '<div class="col-lg-2 col-md-6 col-sm-12 padding-0">'
                         //     menu += ' <span class="text-uppercase text-white ml-3">'
@@ -26,13 +46,13 @@ $(document).ready(function() {
                         //     menu += '</span>'
                         //     menu += '</div>'
                         // } else {
-                            menu += '<div class="col-lg-3 col-md-6 col-sm-12 padding-0">'
-                            menu += ' <span class="text-uppercase text-white ml-3">'
-                            menu += '<a href="' + val.url + '">'
-                            menu += val.name
-                            menu += '</a>'
-                            menu += '</span>'
-                            menu += '</div>'
+                        // menu += '<div class="col-lg-3 col-md-6 col-sm-12 padding-0">'
+                        // menu += ' <span class="text-uppercase text-white ml-3">'
+                        // menu += '<a href="' + val.url + '">'
+                        // menu += val.name
+                        // menu += '</a>'
+                        // menu += '</span>'
+                        // menu += '</div>'
                         // }
                     });
                     menu += '</div>'
