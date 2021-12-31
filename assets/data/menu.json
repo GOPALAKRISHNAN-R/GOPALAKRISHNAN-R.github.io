@@ -1,9 +1,24 @@
 [
 {
     "id": 1,
-    "name": "HOME",
-    "url": "/home",
-    "submenu": ""
+    "name": "ABOUT US",
+    "url": "#",
+    "submenu": [
+    {
+        "id": 1,
+        "name": "VALUES AND PURPOSE",
+        "url": "/values-purpose"
+    },
+    {
+        "id": 2,
+        "name": "LEADERSHIP TEAM",
+        "url": "/leadership-team"
+    },
+    {
+        "id": 3,
+        "name": "OUR VENTURES",
+        "url": "/our-ventures"
+    }]
 },
 {
     "id": 2,
@@ -33,27 +48,6 @@
 },
 {
     "id": 3,
-    "name": "ABOUT US",
-    "url": "#",
-    "submenu": [
-    {
-        "id": 1,
-        "name": "VALUES AND PURPOSE",
-        "url": "/values-purpose"
-    },
-    {
-        "id": 2,
-        "name": "LEADERSHIP TEAM",
-        "url": "/leadership-team"
-    },
-    {
-        "id": 3,
-        "name": "OUR VENTURES",
-        "url": "/our-ventures"
-    }]
-},
-{
-    "id": 5,
     "name": "CONTACT",
     "url": "#contact",
     "submenu": ""
