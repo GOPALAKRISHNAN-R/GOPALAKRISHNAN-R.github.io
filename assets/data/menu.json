@@ -53,12 +53,6 @@
     }]
 },
 {
-    "id": 4,
-    "name": "FAQ",
-    "url": "#faq",
-    "submenu": ""
-},
-{
     "id": 5,
     "name": "CONTACT",
     "url": "#contact",
